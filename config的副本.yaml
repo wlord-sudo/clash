@@ -18,7 +18,7 @@ log-level: warning
 proxies:
   - 
     name: hk1dawz.cfvmess-grpc
-    server: dawz.cf
+    server: 20.239.87.136
     port: 443
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -74,7 +74,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
   - 
     name: hk2degas.gavmess-grpc
-    server: degas.ga
+    server: 20.239.170.35
     port: 443
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -129,7 +129,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
   - name: jp1wxpx.gavmess-grpc
-    server: wxpx.ga
+    server: 20.89.94.62
     port: 443
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
@@ -168,7 +168,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp3sgaz.gavmess-grpc
-    server: sgaz.cf
+    server: 20.222.51.248
     port: 443
     type: vmess
     uuid: a6765cf2-4858-4cbd-bda8-eb6151729e3c
@@ -208,7 +208,7 @@ proxies:
       grpc-service-name: "fe39d984"
   - 
     name: krmyda.cfvmess-grpc
-    server: myda.cf
+    server: 20.196.198.12
     port: 443
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
@@ -250,7 +250,7 @@ proxies:
       grpc-service-name: "304473a5"
   - 
     name: ininda.cfvmess-grpc
-    server: inda.cf
+    server: 20.41.230.99
     port: 443
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
@@ -292,7 +292,7 @@ proxies:
       grpc-service-name: "0c48bd07"
   - 
     name: uswg66.ml.cfvmess-grpc
-    server: wg66.ml
+    server: 168.62.198.134
     port: 443
     type: vmess
     uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
@@ -334,7 +334,7 @@ proxies:
       grpc-service-name: "ff2161c8"
   - 
     name: audegx.gatrojan-grpc
-    server: degx.ga
+    server: 20.70.19.80
     port: 443
     type: vmess
     uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3
@@ -403,7 +403,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "299f9d86"
   - name: frfraz.gqvmess-grpc
-    server: fraz.gq
+    server: 20.111.17.135
     port: 443
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
@@ -455,7 +455,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "5c8be001"
   - name: dedeaz.gavmess-grpc
-    server: deaz.ga
+    server: 20.113.177.122
     port: 443
     type: vmess
     uuid: 35ba0abf-10fb-4bc1-b79c-3edfea382e7f
@@ -494,7 +494,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "609513de"
   - name: dbdbbd.gavmess-grpc
-    server: dbbd.ga
+    server: 20.203.123.202
     port: 443
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
