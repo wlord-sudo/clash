@@ -559,7 +559,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: ukukaz.tkvmess-grpc(中转)
-    server: 20.117.92.97
+    server: puobwcsmpc.eastasia.cloudapp.azure.com
     port: 28906
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -584,6 +584,45 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4017e048"
+  - name: sgwads.gavmess-grpc
+    server: 104.215.250.195
+    port: 443
+    type: vmess
+    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wads.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "cbed1f26"
+  - name: sgwads.gavmess-grpc(中转)
+    server: puobwcsmpc.eastasia.cloudapp.azure.com
+    port: 47884
+    type: vmess
+    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wads.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "cbed1f26"
+  - name: sgwads.gavmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 44422
+    type: vmess
+    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wads.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "cbed1f26"
 proxy-groups:
 
 rules:
