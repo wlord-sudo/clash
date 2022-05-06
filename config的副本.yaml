@@ -545,6 +545,45 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "6a8f46bf"
+  - name: ukukaz.tkvmess-grpc
+    server: 20.117.92.97
+    port: 443
+    type: vmess
+    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ukaz.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4017e048"
+  - name: ukukaz.tkvmess-grpc(中转)
+    server: 20.117.92.97
+    port: 28906
+    type: vmess
+    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ukaz.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4017e048"
+  - name: ukukaz.tkvmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 55452
+    type: vmess
+    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ukaz.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4017e048"
 proxy-groups:
 
 rules:
