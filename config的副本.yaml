@@ -662,6 +662,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913e3a4e"
+  - name: cacaaz.mlvmess-grpc
+    server: 20.220.72.183
+    port: 443
+    type: vmess
+    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: caaz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d04e7a0d"
 proxy-groups:
 
 rules:
