@@ -623,6 +623,45 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
+  - name: iriraz.mlvmess-grpc
+    server: 20.234.6.113
+    port: 443
+    type: vmess
+    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: iraz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "913e3a4e"
+  - name: iriraz.mlvmess-grpc(中转)
+    server: puobwcsmpc.eastasia.cloudapp.azure.com
+    port: 33458
+    type: vmess
+    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: iraz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "913e3a4e"
+  - name: iriraz.mlvmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 58027
+    type: vmess
+    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: iraz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "913e3a4e"
 proxy-groups:
 
 rules:
