@@ -342,7 +342,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: wg66.ml
+    servername: usaz.ml
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "2e2ffb15"
@@ -356,21 +356,21 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: wg66.ml
+    servername: usaz.ml
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "2e2ffb15"
   - 
     name: us2usaz.cfvmess-grpc(中转sz)
     server: sz.cm.xf.gay
-    port: 46355
+    port: 46335
     type: vmess
     uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: wg66.ml
+    servername: usaz.ml
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "2e2ffb15"
