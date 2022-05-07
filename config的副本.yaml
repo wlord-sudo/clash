@@ -333,6 +333,48 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff2161c8"
   - 
+    name: us2usaz.cfvmess-grpc
+    server: 13.78.202.111
+    port: 443
+    type: vmess
+    uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wg66.ml
+    #skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "2e2ffb15"
+  - 
+    name: us2usaz.cfvmess-grpc(中转jp)
+    server: rcphmzwtgg.japaneast.cloudapp.azure.com
+    port: 48063
+    type: vmess
+    uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wg66.ml
+    #skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "2e2ffb15"
+  - 
+    name: us2usaz.cfvmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 46355
+    type: vmess
+    uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wg66.ml
+    #skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "2e2ffb15"
+  - 
     name: audegx.gatrojan-grpc
     server: 20.70.19.80
     port: 443
@@ -403,7 +445,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "299f9d86"
   - name: frfraz.gqvmess-grpc
-    server: 20.111.17.135
+    server: 20.111.8.62
     port: 443
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
