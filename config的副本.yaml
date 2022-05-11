@@ -168,7 +168,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp2dwzz.gavmess-grpc
-    server: 20.89.248.128
+    server: 20.89.240.155
     port: 443
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -179,7 +179,7 @@ proxies:
     servername: dwzz.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "123043f0"
+      grpc-service-name: "f17c8398"
   - name: jp2dwzz.gavmess-grpc(中转)
     server: veqzdhoepc.eastasia.cloudapp.azure.com
     port: 56786
@@ -192,7 +192,7 @@ proxies:
     servername: dwzz.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "123043f0"
+      grpc-service-name: "f17c8398"
   - name: jp2dwzz.gavmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 61285
@@ -205,7 +205,7 @@ proxies:
     servername: dwzz.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "123043f0"
+      grpc-service-name: "f17c8398"
   - name: jp3sgaz.gavmess-grpc
     server: 20.222.51.248
     port: 443
