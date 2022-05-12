@@ -60,7 +60,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
   - 
     name: hk1dawz.cfvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 42410
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -116,7 +116,7 @@ proxies:
       grpc-service-name: "ff7ad5ef"
   - 
     name: hk2degas.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 46798
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -155,7 +155,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp1wxpx.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 56906
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
@@ -168,7 +168,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp2dwzz.gavmess-grpc
-    server: 20.89.240.155
+    server: 20.210.130.33
     port: 443
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -194,7 +194,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
   - name: jp2dwzz.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 61285
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -233,7 +233,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fe39d984"
   - name: jp3sgaz.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 58655
     type: vmess
     uuid: a6765cf2-4858-4cbd-bda8-eb6151729e3c
@@ -275,7 +275,7 @@ proxies:
       grpc-service-name: "304473a5"
   - 
     name: krmyda.cfvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 57125
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
@@ -317,7 +317,7 @@ proxies:
       grpc-service-name: "0c48bd07"
   - 
     name: ininda.cfvmess-grpc(中站sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 42596
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
@@ -359,7 +359,7 @@ proxies:
       grpc-service-name: "ff2161c8"
   - 
     name: uswg66.ml.cfvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 60255
     type: vmess
     uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
@@ -401,7 +401,7 @@ proxies:
       grpc-service-name: "2e2ffb15"
   - 
     name: us2usaz.cfvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 46335
     type: vmess
     uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
@@ -443,7 +443,7 @@ proxies:
       grpc-service-name: "b0a7426a"
   - 
     name: audegx.gatrojan-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 44973
     type: vmess
     uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3
@@ -510,7 +510,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "29d9c714"
   - name: frfraz.gqvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 42824
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
@@ -562,7 +562,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "609513de"
   - name: dedeaz.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 49980
     type: vmess
     uuid: 35ba0abf-10fb-4bc1-b79c-3edfea382e7f
@@ -601,7 +601,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: dbdbbd.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 45523
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
@@ -627,7 +627,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "6a8f46bf"
   - name: ukukaz.tkvmess-grpc
-    server: 20.117.92.97
+    server: 20.108.185.174
     port: 443
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -653,7 +653,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: ukukaz.tkvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 55452
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -666,7 +666,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: sgwads.gavmess-grpc
-    server: 104.215.250.195
+    server: 52.221.201.38
     port: 443
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -692,7 +692,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
   - name: sgwads.gavmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 44422
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -731,7 +731,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "913e3a4e"
   - name: iriraz.mlvmess-grpc(中转sz)
-    server: sz.cm.xf.gay
+    server: sz.cm2.xf.gay
     port: 58027
     type: vmess
     uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
