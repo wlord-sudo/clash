@@ -627,7 +627,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "6a8f46bf"
   - name: ukukaz.tkvmess-grpc
-    server: 20.108.185.174
+    server: 35.179.77.140
     port: 443
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
