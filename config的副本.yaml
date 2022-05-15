@@ -704,6 +704,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4017e048"
+  - name: ititaws.mlvmess-grpc
+    server: 15.161.59.253
+    port: 443
+    type: vmess
+    uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: itaws.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "31004508"
+  - name: ititaws.mlvmess-grpc(中转sz)
+    server: sz.cm2.xf.gay
+    port: 55162
+    type: vmess
+    uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: itaws.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "31004508"
   - name: sgwads.gavmess-grpc
     server: 52.221.201.38
     port: 443
@@ -743,6 +769,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
+  - name: idindogo.gavmess-grpc
+    server: 34.101.227.183
+    port: 443
+    type: vmess
+    uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: indogo.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "25aad2f2"
+  - name: idindogo.gavmess-grpc(中转sz)
+    server: sz.cm2.xf.gay
+    port: 57868
+    type: vmess
+    uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: indogo.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "25aad2f2"
   - name: iriraz.mlvmess-grpc
     server: 20.223.186.2
     port: 443
