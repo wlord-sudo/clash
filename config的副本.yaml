@@ -613,6 +613,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "609513de"
+  - name: popogp.gqvmess-grpc
+    server: 34.116.196.212
+    port: 443
+    type: vmess
+    uuid: 564c6666-3d1d-4fef-b6c0-596ed077a901
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: pogp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "fe3436e8"
+  - name: popogp.gqvmess-grpc(中转)
+    server: sz.cm2.xf.gay
+    port: 46916
+    type: vmess
+    uuid: 564c6666-3d1d-4fef-b6c0-596ed077a901
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: pogp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "fe3436e8"
   - name: dbdbbd.gavmess-grpc
     server: 20.203.123.202
     port: 443
