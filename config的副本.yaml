@@ -757,7 +757,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "31004508"
   - name: sgwads.gavmess-grpc
-    server: 52.221.201.38
+    server: 13.212.53.64
     port: 443
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -873,6 +873,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d04e7a0d"
+  - name: nlnlgp.tkvmess-grpc
+    server: 34.116.196.212
+    port: 443
+    type: vmess
+    uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nlgp.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d07f96c9"
+  - name: nlnlgp.tkvmess-grpc(中转)
+    server: sz.cm2.xf.gay
+    port: 64022
+    type: vmess
+    uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nlgp.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d07f96c9"
 proxy-groups:
 
 rules:
