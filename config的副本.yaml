@@ -899,6 +899,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
+  - name: bebegp.mlvmess-grpc
+    server: 34.140.127.170
+    port: 443
+    type: vmess
+    uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: begp.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0c6ea2ee"
+  - name: bebegp.mlvmess-grpc(中转)
+    server: sz.cm2.xf.gay
+    port: 60779
+    type: vmess
+    uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: begp.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0c6ea2ee"
 proxy-groups:
 
 rules:
