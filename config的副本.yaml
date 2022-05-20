@@ -32,7 +32,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
   - 
     name: hk1dawz.cfvmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 48474
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -88,7 +88,7 @@ proxies:
       grpc-service-name: "ff7ad5ef"
   - 
     name: hk2degas.gavmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 54377
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -220,7 +220,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
   - name: jp2dwzz.gavmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 56786
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -495,8 +495,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "b0a7426a"
   - 
-    name: nfnfzz.gcf.cftrojan-grpc
-    server: nfzz.cf
+    name: nfnfzz.gcf.cfvmess-grpc
+    server: 20.87.42.254
     port: 443
     type: vmess
     uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
@@ -509,9 +509,37 @@ proxies:
     grpc-opts:
       grpc-service-name: "0a9c97ea"
   - 
+    name: nfnfzz.gcf.cfvmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 64998
+    type: vmess
+    uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nfzz.cf
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0a9c97ea"
+  - 
     name: bxbxaz.tk.vmess-grpc
-    server: bxza.tk
+    server: 20.206.88.233
     port: 443
+    type: vmess
+    uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: bxza.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "299f9d86"
+  - 
+    name: bxbxaz.tk.vmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 63995
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
     alterId: 0
@@ -562,8 +590,21 @@ proxies:
     grpc-opts:
       grpc-service-name: "29d9c714"
   - name: swsend.mlvmess-grpc
-    server: send.ml
+    server: 51.103.146.120
     port: 443
+    type: vmess
+    uuid: 126110be-5dd5-429f-b05b-4fcc4cd03b86
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: send.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "5c8be001"
+  - name: swsend.mlvmess-grpc(中转sz)
+    server: sz.cm.xf.gay
+    port: 52046
     type: vmess
     uuid: 126110be-5dd5-429f-b05b-4fcc4cd03b86
     alterId: 0
@@ -679,8 +720,21 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: nynyaz.mlvmess-grpc
-    server: nyaz.ml
+    server: 51.13.105.220
     port: 443
+    type: vmess
+    uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nyaz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "6a8f46bf"
+  - name: nynyaz.mlvmess-grpc（中转sz）
+    server: sz.cm.xf.gay
+    port: 60644
     type: vmess
     uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
     alterId: 0
@@ -705,7 +759,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: ukukaz.tkvmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 28906
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -770,7 +824,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
   - name: sgwads.gavmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 47884
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -835,7 +889,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "913e3a4e"
   - name: iriraz.mlvmess-grpc(中转)
-    server: kbyqgoiuci.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 33458
     type: vmess
     uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
@@ -863,6 +917,19 @@ proxies:
   - name: cacaaz.mlvmess-grpc
     server: 20.220.72.183
     port: 443
+    type: vmess
+    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: caaz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d04e7a0d"
+  - name: cacaaz.mlvmess-grpc（中转sz）
+    server: sz.cm.xf.gay
+    port: 64315
     type: vmess
     uuid: 3796e400-f346-440d-ae6c-c4592993e462
     alterId: 0
