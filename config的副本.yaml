@@ -1018,6 +1018,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f417ffa0"
+  - name: flflgcp.gqvmess-grpc
+    server: 34.88.120.227
+    port: 443
+    type: vmess
+    uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: flgcp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0851d4fb"
+  - name: flflgcp.gqvmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 64323
+    type: vmess
+    uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: flgcp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0851d4fb"
 proxy-groups:
 
 rules:
