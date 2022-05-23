@@ -992,6 +992,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
+  - name: rdrdaws.gavmess-grpc
+    server: 13.53.198.192
+    port: 443
+    type: vmess
+    uuid: 3dad694f-ca7f-49ed-9f44-22c6dbd5cc44
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: rdaws.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "f417ffa0"
+  - name: rdrdaws.gavmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 61698
+    type: vmess
+    uuid: 3dad694f-ca7f-49ed-9f44-22c6dbd5cc44
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: rdaws.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "f417ffa0"
 proxy-groups:
 
 rules:
