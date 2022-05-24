@@ -11,9 +11,10 @@
 mixed-port: 7890
 # RESTful API for clash
 external-controller: 127.0.0.1:9090
-allow-lan: false
+allow-lan: true
 mode: rule
 log-level: warning
+udp-rely: true
 
 proxies:
   - 
@@ -1044,6 +1045,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0851d4fb"
+  - name: blzlgcp.mlvmess-grpc
+    server: 157.175.166.40
+    port: 443
+    type: vmess
+    uuid: 42053015-8798-4245-a6f0-a00642dffb8b
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: zlgcp.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "fbe21e4d"
+  - name: blzlgcp.mlvmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 57816
+    type: vmess
+    uuid: 42053015-8798-4245-a6f0-a00642dffb8b
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: zlgcp.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "fbe21e4d"
 proxy-groups:
 
 rules:
