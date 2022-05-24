@@ -644,7 +644,7 @@ proxies:
       grpc-service-name: "609513de"
   - name: dedeaz.gavmess-grpc(中转sz)
     server: sz.cm.xf.gay
-    port: 49980
+    port: 41279
     type: vmess
     uuid: 35ba0abf-10fb-4bc1-b79c-3edfea382e7f
     alterId: 0
@@ -655,6 +655,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "609513de"
+  - name: spspgp.tkvmess-grpc
+    server: 34.175.21.67
+    port: 443
+    type: vmess
+    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: spgp.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "5bce4c48"
+  - name: spspgp.tkvmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 41279
+    type: vmess
+    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: spgp.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "5bce4c48"
   - name: popogp.gqvmess-grpc
     server: 34.116.196.212
     port: 443
@@ -1071,6 +1097,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"
+  - name: zlzlgp.gqvmess-grpc
+    server: zlgp.gq
+    port: 443
+    type: vmess
+    uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: zlgp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4c1e89bf"
 proxy-groups:
 
 rules:
