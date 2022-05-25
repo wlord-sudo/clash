@@ -1098,8 +1098,21 @@ proxies:
     grpc-opts:
       grpc-service-name: "fbe21e4d"
   - name: zlzlgp.gqvmess-grpc
-    server: zlgp.gq
+    server: 34.176.79.23
     port: 443
+    type: vmess
+    uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: zlgp.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4c1e89bf"
+  - name: zlzlgp.gqvmess-grpc(中转)
+    server: sz.cm.xf.gay
+    port: 61013
     type: vmess
     uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
     alterId: 0
