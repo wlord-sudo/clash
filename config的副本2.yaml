@@ -18,7 +18,7 @@ udp-rely: true
 
 proxies:
   - 
-    name: hk1dawz.cfvmess-grpc
+    name: hkdawz.cfvmess-grpc
     server: 20.239.87.136
     port: 443
     type: vmess
@@ -27,12 +27,12 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dawz.cf
+    servername: 20-239-87-136.nhost.00cdn.com
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
-    name: hk1dawz.cfvmess-grpc(中转)
+    name: hkdawz.cfvmess-grpc(中转)
     server: zf.hk01.xf.gay
     port: 48474
     type: vmess
@@ -41,12 +41,12 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dawz.cf
+    servername: 20-239-87-136.nhost.00cdn.com
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
-    name: hk1dawz.cfvmess-grpc(中转hkix)
+    name: hkdawz.cfvmess-grpc(中转hkix)
     server: sz.cm.xf.gay
     port: 27918
     type: vmess
@@ -55,12 +55,12 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
-    skip-cert-verify: true
+    servername: 20-239-87-136.nhost.00cdn.com
+    # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
-    name: hk1dawz.cfvmess-grpc(中转sz)
+    name: hkdawz.cfvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 42410
     type: vmess
@@ -69,7 +69,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: 20-239-87-136.nhost.00cdn.com
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
@@ -143,7 +143,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "be18d66a"
   - name: twtwge.tkvmess-grpc(中转)
-    server: cmqrhwfjsg.eastasia.cloudapp.azure.com
+    server: zf.hk01.xf.gay
     port: 56711
     type: vmess
     uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
@@ -181,9 +181,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
-  - name: jp1wxpx.gavmess-grpc(中转cd)
-    server: 117.174.25.60
-    port: 57512
+  - name: jp1wxpx.gavmess-grpc(中转)
+    server: zf.hk01.xf.gay
+    port: 20888
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
     alterId: 0
@@ -259,9 +259,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fe39d984"
-  - name: jp3sgaz.gavmess-grpc(中转cd)
-    server: 117.174.25.60
-    port: 48939
+  - name: jp3sgaz.gavmess-grpc(中转)
+    server: zf.jp01.xf.gay
+    port: 32994
     type: vmess
     uuid: a6765cf2-4858-4cbd-bda8-eb6151729e3c
     alterId: 0
@@ -300,9 +300,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "304473a5"
   - 
-    name: krmyda.cfvmess-grpc(中转hkix)
-    server: sz.cm.xf.gay
-    port: 12631
+    name: krmyda.cfvmess-grpc(中转)
+    server: zf.hk01.xf.gay
+    port: 59512
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
     alterId: 0
@@ -342,9 +342,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "0c48bd07"
   - 
-    name: ininda.cfvmess-grpc(中站hkix)
-    server: sz.cm.xf.gay
-    port: 32247
+    name: ininda.cfvmess-grpc(中站)
+    server: zf.hk01.xf.gay
+    port: 35911
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
     alterId: 0
@@ -384,9 +384,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff2161c8"
   - 
-    name: uswg66.ml.cfvmess-grpc(中转cd)
-    server: 117.174.25.60
-    port: 55328
+    name: uswg66.ml.cfvmess-grpc(中转)
+    server: zf.hk01.xf.gay
+    port: 40575
     type: vmess
     uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
     alterId: 0
@@ -468,9 +468,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "b0a7426a"
   - 
-    name: audegx.gatrojan-grpc(中转cd)
-    server: 117.174.25.60
-    port: 61950
+    name: audegx.gatrojan-grpc(中转)
+    server: zf.hk01.xf.gay
+    port: 38490
     type: vmess
     uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3
     alterId: 0
@@ -564,9 +564,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
-  - name: frfraz.gqvmess-grpc(中转cd)
-    server: 117.174.25.60
-    port: 50206
+  - name: frfraz.gqvmess-grpc(中转)
+    server: zf.hk01.xf.gay
+    port: 32127
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
     alterId: 0
@@ -747,7 +747,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: nynyaz.mlvmess-grpc
-    server: 51.13.105.220
+    server: 51.120.80.229
     port: 443
     type: vmess
     uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
