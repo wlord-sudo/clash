@@ -550,7 +550,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "0a9c97ea"
   - 
-    name: nfnfzz.gcf.cfvmess-grpc(中转)
+    name: nfnfzz.gcf.cfvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 64998
     type: vmess
@@ -559,8 +559,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: nfzz.cf
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0a9c97ea"
   - 
@@ -587,8 +587,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: bxza.tk
-    # skip-cert-verify: true
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "299f9d86"
   - name: frfraz.gqvmess-grpc
@@ -613,8 +612,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: fraz.gq
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
   - name: frfraz.gqvmess-grpc(中转sz)
@@ -626,8 +625,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: fraz.gq
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
   - name: swsend.mlvmess-grpc
@@ -652,8 +651,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: send.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "5c8be001"
   - name: dedeaz.gavmess-grpc
@@ -678,8 +677,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: deaz.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "609513de"
   - name: dedeaz.gavmess-grpc(中转sz)
@@ -691,8 +690,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: deaz.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "609513de"
   - name: spspgp.tkvmess-grpc
@@ -705,7 +704,7 @@ proxies:
     network: grpc
     tls: true
     servername: spgp.tk
-    # skip-cert-verify: true
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "5bce4c48"
   - name: spspgp.tkvmess-grpc(中转)
@@ -717,8 +716,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: spgp.tk
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "5bce4c48"
   - name: popogp.gqvmess-grpc
@@ -731,7 +730,7 @@ proxies:
     network: grpc
     tls: true
     servername: pogp.gq
-    # skip-cert-verify: true
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fe3436e8"
   - name: popogp.gqvmess-grpc(中转)
@@ -743,8 +742,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: pogp.gq
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fe3436e8"
   - name: dbdbbd.gavmess-grpc
@@ -757,7 +756,7 @@ proxies:
     network: grpc
     tls: true
     servername: dbbd.ga
-    # skip-cert-verify: true
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: dbdbbd.gavmess-grpc(中转hkix)
@@ -769,8 +768,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dbbd.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: dbdbbd.gavmess-grpc(中转sz)
@@ -782,8 +781,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dbbd.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: nynyaz.mlvmess-grpc
@@ -808,8 +807,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: nyaz.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "6a8f46bf"
   - name: ukukaz.tkvmess-grpc
@@ -847,8 +846,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: ukaz.tk
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: ititaws.mlvmess-grpc
@@ -873,8 +872,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: itaws.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "31004508"
   - name: sgwads.gavmess-grpc
@@ -912,8 +911,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: wads.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
   - name: idindogo.gavmess-grpc
@@ -938,8 +937,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: indogo.ga
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "25aad2f2"
   - name: iriraz.mlvmess-grpc
@@ -977,8 +976,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: iraz.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913e3a4e"
   - name: cacaaz.mlvmess-grpc
@@ -1003,8 +1002,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: caaz.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d04e7a0d"
   - name: nlnlgp.tkvmess-grpc
@@ -1020,7 +1019,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
-  - name: nlnlgp.tkvmess-grpc(中转)
+  - name: nlnlgp.tkvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 64022
     type: vmess
@@ -1029,8 +1028,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: nlgp.tk
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
   - name: bebegp.mlvmess-grpc
@@ -1046,7 +1045,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
-  - name: bebegp.mlvmess-grpc(中转)
+  - name: bebegp.mlvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 60779
     type: vmess
@@ -1055,8 +1054,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: begp.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
   - name: rdrdaws.gavmess-grpc
@@ -1072,7 +1071,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f417ffa0"
-  - name: rdrdaws.gavmess-grpc(中转)
+  - name: rdrdaws.gavmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 61698
     type: vmess
@@ -1081,8 +1080,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: rdaws.tk
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f417ffa0"
   - name: flflgcp.gqvmess-grpc
@@ -1098,7 +1097,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0851d4fb"
-  - name: flflgcp.gqvmess-grpc(中转)
+  - name: flflgcp.gqvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 64323
     type: vmess
@@ -1107,8 +1106,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: flgcp.gq
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0851d4fb"
   - name: blzlgcp.mlvmess-grpc
@@ -1124,7 +1123,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"
-  - name: blzlgcp.mlvmess-grpc(中转)
+  - name: blzlgcp.mlvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 57816
     type: vmess
@@ -1133,8 +1132,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: zlgcp.ml
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"
   - name: zlzlgp.gqvmess-grpc
@@ -1150,7 +1149,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c1e89bf"
-  - name: zlzlgp.gqvmess-grpc(中转)
+  - name: zlzlgp.gqvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 61013
     type: vmess
@@ -1159,8 +1158,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: zlgp.gq
-    # skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c1e89bf"
 proxy-groups:
