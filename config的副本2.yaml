@@ -55,8 +55,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
-    skip-cert-verify: true
+    servername: 20-239-87-136.nhost.00cdn.com
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
@@ -69,8 +69,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
-    skip-cert-verify: true
+    servername: 20-239-87-136.nhost.00cdn.com
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
