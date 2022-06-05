@@ -518,7 +518,7 @@ proxies:
     network: grpc
     tls: true
     servername: szextshort.weixin.qq.com
-    #skip-cert-verify: true
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b0a7426a"
   - 
