@@ -328,7 +328,7 @@ proxies:
   - 
     name: krmyda.cfvmess-grpc(中转cd)
     server: 117.174.25.60
-    port: 52351
+    port: 52356
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
     alterId: 0
