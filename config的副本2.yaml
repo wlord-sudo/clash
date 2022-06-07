@@ -42,7 +42,7 @@ proxies:
     network: grpc
     tls: true
     servername: 20-239-87-136.nhost.00cdn.com
-    # skip-cert-verify: true
+    #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
@@ -55,8 +55,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: 20-239-87-136.nhost.00cdn.com
-    #skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
@@ -69,8 +69,8 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: 20-239-87-136.nhost.00cdn.com
-    #skip-cert-verify: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
@@ -594,13 +594,14 @@ proxies:
   - 
     name: bxbxaz.tk.vmess-grpc(中转cd)
     server: 117.174.25.60
-    port: 32577
+    port: 52358
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
+    servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "299f9d86"
@@ -614,6 +615,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
+    servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "299f9d86"
@@ -747,6 +749,19 @@ proxies:
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "5bce4c48"
+  - name: spspgp.tkvmess-grpc(中转cd)
+    server: 117.174.25.60
+    port: 52367
+    type: vmess
+    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "5bce4c48"
   - name: spspgp.tkvmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 41279
@@ -799,9 +814,9 @@ proxies:
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
-  - name: dbdbbd.gavmess-grpc(中转hkix)
-    server: sz.cm.xf.gay
-    port: 11553
+  - name: dbdbbd.gavmess-grpc(中转cd)
+    server: 117.174.25.60
+    port: 52358
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
     alterId: 0
@@ -838,6 +853,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "6a8f46bf"
+  - name: nynyaz.mlvmess-grpc(中转cd)
+    server: 117.174.25.60
+    port: 52369
+    type: vmess
+    uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "6a8f46bf"
   - name: nynyaz.mlvmess-grpc（中转sz）
     server: sz.cm.xf.gay
     port: 60644
@@ -867,6 +895,19 @@ proxies:
   - name: ukukaz.tkvmess-grpc(中转)
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
     port: 28906
+    type: vmess
+    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ukaz.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "4017e048"
+  - name: ukukaz.tkvmess-grpc(中转cd)
+    server: 117.174.25.60
+    port: 52370
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
     alterId: 0
@@ -1211,20 +1252,3 @@ rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
   - GEOIP,CN,DIRECT
   - MATCH,DIRECT
-dns:
-  enable: true # set true to enable dns (default is false)
-  ipv6: true # default is false
-  listen: 0.0.0.0:53
-  enhanced-mode: fake-ip # or redir-host
-  fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
-  nameserver:
-    - https://1.1.1.1/dns-query
-    - https://hk1.beta.xns.one/08a43a42-88b2-4d46-9251-7fb43f70a06e/dns-query
-    - https://[2606:4700:4700::1111]/dns-query
-  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-    - tls://c.passcloud.xyz # dns over tls
-    - https://i.passcloud.xyz/dns-query # dns over https
-  fallback-filter:
-    geoip: true # default
-    ipcidr: # ips in these subnets will be considered polluted
-      - 240.0.0.0/4
