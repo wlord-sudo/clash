@@ -690,7 +690,7 @@ proxies:
   - 
     name: bxbxaz.tk.vmess-grpc（中转）
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
-    port: 52358
+    port: 32577
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
     alterId: 0
@@ -900,7 +900,7 @@ proxies:
       grpc-service-name: "5bce4c48"
   - name: spspgp.tkvmess-grpc（中转）
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
-    port: 52367
+    port: 36929
     type: vmess
     uuid: a6e484b3-3089-4081-9481-60930bd6c638
     alterId: 0
@@ -1147,7 +1147,7 @@ proxies:
       grpc-service-name: "31004508"
   - name: ititaws.mlvmess-grpc（中转）
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
-    port: 52145
+    port: 52840
     type: vmess
     uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
     alterId: 0
@@ -1355,7 +1355,7 @@ proxies:
       grpc-service-name: "d04e7a0d"
   - name: cacaaz.mlvmess-grpc（中转）
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
-    port: 52149
+    port: 12286
     type: vmess
     uuid: 3796e400-f346-440d-ae6c-c4592993e462
     alterId: 0
@@ -1713,3 +1713,20 @@ rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
   - GEOIP,CN,DIRECT
   - MATCH,DIRECT
+dns:
+  enable: true # set true to enable dns (default is false)
+  ipv6: true # default is false
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip # or redir-host
+  fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://hk1.beta.xns.one/08a43a42-88b2-4d46-9251-7fb43f70a06e/dns-query
+    - https://[2606:4700:4700::1111]/dns-query
+  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
+    - tls://c.passcloud.xyz # dns over tls
+    - https://i.passcloud.xyz/dns-query
+  fallback-filter:
+    geoip: true # default
+    ipcidr: # ips in these subnets will be considered polluted
+      - 240.0.0.0/4
