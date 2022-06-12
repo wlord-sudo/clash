@@ -403,7 +403,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: inda.cf
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c48bd07"
@@ -417,7 +417,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: inda.cf
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c48bd07"
@@ -620,6 +620,20 @@ proxies:
   - 
     name: nfnfzz.gcf.cfvmess-grpc
     server: 20.87.42.254
+    port: 443
+    type: vmess
+    uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nfzz.cf
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0a9c97ea"
+  - 
+    name: nfnfzz.gcf.cfvmess-grpc(cf)
+    server: nfzz.cf
     port: 443
     type: vmess
     uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
@@ -1029,7 +1043,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: nynyaz.mlvmess-grpc
-    server: 51.13.105.220
+    server: 51.120.80.229
     port: 443
     type: vmess
     uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
