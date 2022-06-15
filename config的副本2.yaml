@@ -32,6 +32,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
+    name: hk1dawz.cfvmess-grpc(cn2)
+    server: 45.94.42.109
+    port: 2876
+    type: vmess
+    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: 20-239-87-136.nhost.00cdn.com
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0d0e68b1"
+  - 
     name: hk1dawz.cfvmess-grpc(中转)
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
     port: 48474
@@ -633,7 +647,7 @@ proxies:
       grpc-service-name: "0a9c97ea"
   - 
     name: nfnfzz.gcf.cfvmess-grpc(cf)
-    server: nfzz.cf
+    server: 2606:4700:4700::1001
     port: 443
     type: vmess
     uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
@@ -810,7 +824,7 @@ proxies:
       grpc-service-name: "5c8be001"
   - name: swsend.mlvmess-grpc（中转）
     server: hbcpbgcrek.eastasia.cloudapp.azure.com
-    port: 40357
+    port: 40354
     type: vmess
     uuid: 126110be-5dd5-429f-b05b-4fcc4cd03b86
     alterId: 0
