@@ -33,8 +33,8 @@ proxies:
       grpc-service-name: "0d0e68b1"
   - 
     name: hk1dawz.cfvmess-grpc(cn2)
-    server: 45.94.42.109
-    port: 2876
+    server: 45.129.9.230
+    port: 28765
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
     alterId: 0
@@ -91,6 +91,20 @@ proxies:
     name: hk2degas.gavmess-grpc
     server: 20.239.170.35
     port: 443
+    type: vmess
+    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: degas.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "ff7ad5ef"
+  - 
+    name: hk2degas.gavmess-grpc(cn2)
+    server: 45.129.9.230
+    port: 45670
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
     alterId: 0
@@ -535,7 +549,7 @@ proxies:
       grpc-service-name: "2e2ffb15"
   - 
     name: us2usaz.cfvmess-grpc(中转jp)
-    server: fzihrikelo.japaneast.cloudapp.azure.com
+    server: nvaxarbvdu.japaneast.cloudapp.azure.com
     port: 48063
     type: vmess
     uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
