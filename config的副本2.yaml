@@ -47,7 +47,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
   - 
     name: hk1dawz.cfvmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 48474
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -117,7 +117,7 @@ proxies:
       grpc-service-name: "ff7ad5ef"
   - 
     name: hk2degas.gavmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 54377
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -171,7 +171,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "be18d66a"
   - name: twtwge.tkvmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 56711
     type: vmess
     uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
@@ -223,7 +223,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp1wxpx.gavmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 20888
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
@@ -275,7 +275,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
   - name: jp2dwzz.gavmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 56786
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -381,7 +381,7 @@ proxies:
       grpc-service-name: "304473a5"
   - 
     name: krmyda.cfvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 49961
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
@@ -437,7 +437,7 @@ proxies:
       grpc-service-name: "0c48bd07"
   - 
     name: ininda.cfvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 35911
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
@@ -493,7 +493,7 @@ proxies:
       grpc-service-name: "ff2161c8"
   - 
     name: uswg66.ml.cfvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 40575
     type: vmess
     uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
@@ -605,7 +605,7 @@ proxies:
       grpc-service-name: "b0a7426a"
   - 
     name: audegx.gavmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 38490
     type: vmess
     uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3
@@ -675,7 +675,7 @@ proxies:
       grpc-service-name: "0a9c97ea"
   - 
     name: nfnfzz.gcf.cfvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 26292
     type: vmess
     uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
@@ -731,7 +731,7 @@ proxies:
       grpc-service-name: "299f9d86"
   - 
     name: bxbxaz.tk.vmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 32577
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
@@ -785,7 +785,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "29d9c714"
   - name: frfraz.gqvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 32127
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
@@ -837,7 +837,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "5c8be001"
   - name: swsend.mlvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 40354
     type: vmess
     uuid: 126110be-5dd5-429f-b05b-4fcc4cd03b86
@@ -889,7 +889,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "609513de"
   - name: dedeaz.gavmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 40315
     type: vmess
     uuid: 35ba0abf-10fb-4bc1-b79c-3edfea382e7f
@@ -941,7 +941,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "5bce4c48"
   - name: spspgp.tkvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 36929
     type: vmess
     uuid: a6e484b3-3089-4081-9481-60930bd6c638
@@ -993,7 +993,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fe3436e8"
   - name: popogp.gqvmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 28150
     type: vmess
     uuid: 564c6666-3d1d-4fef-b6c0-596ed077a901
@@ -1032,7 +1032,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
   - name: dbdbbd.gavmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 32577
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
@@ -1084,7 +1084,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "6a8f46bf"
   - name: nynyaz.mlvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 54436
     type: vmess
     uuid: 52b875dc-161f-4028-ba9e-cf04054ef19d
@@ -1136,7 +1136,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
   - name: ukukaz.tkvmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 28906
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -1188,7 +1188,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "31004508"
   - name: ititaws.mlvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 52840
     type: vmess
     uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
@@ -1240,7 +1240,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
   - name: sgwads.gavmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 47884
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -1344,7 +1344,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "913e3a4e"
   - name: iriraz.mlvmess-grpc(中转)
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 33458
     type: vmess
     uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
@@ -1396,7 +1396,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "d04e7a0d"
   - name: cacaaz.mlvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 12286
     type: vmess
     uuid: 3796e400-f346-440d-ae6c-c4592993e462
@@ -1552,7 +1552,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f417ffa0"
   - name: rdrdaws.gavmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 32103
     type: vmess
     uuid: 3dad694f-ca7f-49ed-9f44-22c6dbd5cc44
@@ -1604,7 +1604,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "0851d4fb"
   - name: flflgcp.gqvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 59389
     type: vmess
     uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
@@ -1656,7 +1656,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fbe21e4d"
   - name: blzlgcp.mlvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 55110
     type: vmess
     uuid: 42053015-8798-4245-a6f0-a00642dffb8b
@@ -1708,7 +1708,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4c1e89bf"
   - name: zlzlgp.gqvmess-grpc（中转）
-    server: cgsplhbfex.eastasia.cloudapp.azure.com
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 22011
     type: vmess
     uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
