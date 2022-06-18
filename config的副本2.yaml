@@ -262,7 +262,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp2dwzz.gavmess-grpc
-    server: 20.210.130.33
+    server: 20.210.187.230
     port: 443
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -327,7 +327,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fe39d984"
   - name: jp3sgaz.gavmess-grpc（中转jp）
-    server: fzihrikelo.japaneast.cloudapp.azure.com
+    server: nvaxarbvdu.japaneast.cloudapp.azure.com
     port: 32994
     type: vmess
     uuid: a6765cf2-4858-4cbd-bda8-eb6151729e3c
@@ -1123,7 +1123,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "6a8f46bf"
   - name: ukukaz.tkvmess-grpc
-    server: 20.117.162.138
+    server: 20.108.158.18
     port: 443
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -1331,7 +1331,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "25aad2f2"
   - name: iriraz.mlvmess-grpc
-    server: 20.223.186.2
+    server: 23.102.1.76
     port: 443
     type: vmess
     uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
