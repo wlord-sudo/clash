@@ -32,6 +32,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "0d0e68b1"
   - 
+    name: hk1dawz.cfvmess-grpc(sz)
+    server: cn.gysz1.986888.xyz
+    port: 13258
+    type: vmess
+    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0d0e68b1"
+  - 
     name: hk1dawz.cfvmess-grpc(cn2)
     server: 45.129.9.73
     port: 28765
@@ -130,20 +144,6 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
   - 
-    name: hk2degas.gavmess-grpc(中转cd)
-    server: 117.174.25.60
-    port: 52346
-    type: vmess
-    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: szextshort.weixin.qq.com
-    skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "ff7ad5ef"
-  - 
     name: hk2degas.gavmess-grpc(中转sz)
     server: sz.cm.xf.gay
     port: 46798
@@ -168,6 +168,19 @@ proxies:
     tls: true
     servername: twge.tk
     # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "be18d66a"
+  - name: twtwge.tkvmess-grpc(sz)
+    server: cn.gysz1.986888.xyz
+    port: 27306
+    type: vmess
+    uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "be18d66a"
   - name: twtwge.tkvmess-grpc(中转)
@@ -220,6 +233,19 @@ proxies:
     tls: true
     servername: wxpx.ga
     # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "b357b3f2"
+  - name: jp1wxpx.gavmess-grpc(sl)
+    server: cn.shcu.986888.xyz
+    port: 31751
+    type: vmess
+    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
   - name: jp1wxpx.gavmess-grpc(中转)
@@ -436,6 +462,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "0c48bd07"
   - 
+    name: ininda.cfvmess-grpc(sz)
+    server: cn.gysz1.986888.xyz
+    port: 23463
+    type: vmess
+    uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0c48bd07"
+  - 
     name: ininda.cfvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 35911
@@ -492,6 +532,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff2161c8"
   - 
+    name: uswg66.ml.cfvmess-grpc(sl)
+    server: cn.shcu.986888.xyz
+    port: 24167
+    type: vmess
+    uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "ff2161c8"
+  - 
     name: uswg66.ml.cfvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 40575
@@ -545,6 +599,20 @@ proxies:
     tls: true
     servername: usaz.ml
     #skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "2e2ffb15"
+  - 
+    name: us2usaz.cfvmess-grpc(sl)
+    server: cn.shcu.986888.xyz
+    port: 27118
+    type: vmess
+    uuid: db5e6680-8160-42e2-816a-cd04f1f24ca0
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "2e2ffb15"
   - 
@@ -1239,6 +1307,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
+  - name: sgwads.gavmess-grpc(sz)
+    server: cn.gysz1.986888.xyz
+    port: 47175
+    type: vmess
+    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "cbed1f26"
   - name: sgwads.gavmess-grpc(中转)
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 47884
@@ -1385,6 +1466,19 @@ proxies:
   - name: cacaaz.mlvmess-grpc
     server: 20.220.72.183
     port: 443
+    type: vmess
+    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: caaz.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d04e7a0d"
+  - name: cacaaz.mlvmess-grpc(sl)
+    server: cn.shcu.986888.xyz
+    port: 29239
     type: vmess
     uuid: 3796e400-f346-440d-ae6c-c4592993e462
     alterId: 0
