@@ -1633,7 +1633,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
   - name: rdrdaws.gavmess-grpc
-    server: 13.53.198.192
+    server: 13.49.23.102
     port: 443
     type: vmess
     uuid: 3dad694f-ca7f-49ed-9f44-22c6dbd5cc44
@@ -1737,7 +1737,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "0851d4fb"
   - name: blzlgcp.mlvmess-grpc
-    server: 157.175.166.40
+    server: 15.185.117.51
     port: 443
     type: vmess
     uuid: 42053015-8798-4245-a6f0-a00642dffb8b
