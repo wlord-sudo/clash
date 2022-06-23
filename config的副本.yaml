@@ -33,7 +33,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
  - 
     name: hk1dawz.cfvmess-grpc(sz)
-    server: cn.hncu.986888.xyz
+    server: cn.cmcmyd.986888.xyz
     port: 37928
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -184,7 +184,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "be18d66a"
  -  name: twtwge.tkvmess-grpc(sz)
-    server: cn.hncu.986888.xyz
+    server: cn.cmcmyd.986888.xyz
     port: 11482
     type: vmess
     uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
@@ -447,7 +447,7 @@ proxies:
  - 
     name: krmyda.cfvmess-grpc(bj)
     server: 140.179.148.92
-    port: 13006
+    port: 61882
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
     alterId: 0
@@ -726,7 +726,7 @@ proxies:
       grpc-service-name: "b0a7426a"
  - 
     name: audegx.gavmess-grpc(sz)
-    server: cn.hncu.986888.xyz
+    server: cn.cmcmyd.986888.xyz
     port: 53128
     type: vmess
     uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3
