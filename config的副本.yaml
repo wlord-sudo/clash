@@ -446,8 +446,8 @@ proxies:
       grpc-service-name: "304473a5"
  - 
     name: krmyda.cfvmess-grpc(bj)
-    server: 140.179.148.92
-    port: 61882
+    server: azbj01.986888.xyz
+    port: 21092
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
     alterId: 0
