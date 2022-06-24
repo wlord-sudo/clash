@@ -250,7 +250,7 @@ proxies:
       grpc-service-name: "b357b3f2"
  -  name: jp1wxpx.gavmess-grpc(sl)
     server: cn.shcu.986888.xyz
-    port: 31751
+    port: 64919
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
     alterId: 0
@@ -315,7 +315,7 @@ proxies:
       grpc-service-name: "f17c8398"
  -  name: jp2dwzz.gavmess-grpc(sl)
     server: cn.shcu.986888.xyz
-    port: 24621
+    port: 62850
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
     alterId: 0
@@ -446,8 +446,8 @@ proxies:
       grpc-service-name: "304473a5"
  - 
     name: krmyda.cfvmess-grpc(bj)
-    server: 140.179.148.92
-    port: 13006
+    server: azbj01.986888.xyz
+    port: 21092
     type: vmess
     uuid: f2121a4c-8df8-492d-a4a4-1ceed78fbe86
     alterId: 0
@@ -881,7 +881,7 @@ proxies:
  - 
     name: bxbxaz.tk.vmess-grpc(sl)
     server: cn.shcu.986888.xyz
-    port: 54627
+    port: 61587
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
     alterId: 0
@@ -943,7 +943,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: fraz.tk
+    servername: fraz.gq
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
@@ -969,7 +969,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: fraz.tk
+    servername: fraz.gq
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
@@ -1572,7 +1572,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
  -  name: idindogo.gavmess-grpc
-    server: 34.101.227.183
+    server: 34.128.126.244
     port: 443
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
@@ -1598,8 +1598,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "25aad2f2"
  -  name: idindogo.gavmess-grpc（中转）
-    server: 20.239.95.5
-    port: 7856
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
+    port: 52354
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
     alterId: 0
