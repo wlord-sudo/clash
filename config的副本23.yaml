@@ -88,8 +88,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
  - 
-    name: hk2degas.gavmess-grpc(dx)
-    server: cn.xxct.986888.xyz
+    name: hk2degas.gavmess-grpc(bj)
+    server: azbj01.986888.xyz
     port: 51913
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -129,7 +129,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- -  name: twtwge.tkvmess-grpc
+ -  name: tw1twge.tkvmess-grpc
     server: 35.236.173.165
     port: 443
     type: vmess
@@ -142,7 +142,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "be18d66a"
- -  name: twtwge.tkvmess-grpc(sz)
+ -  name: tw1twge.tkvmess-grpc(sz)
     server: cn.gysz1.986888.xyz
     port: 11482
     type: vmess
@@ -155,7 +155,7 @@ proxies:
     skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "be18d66a"
- -  name: twtwge.tkvmess-grpc(中转)
+ -  name: tw1twge.tkvmess-grpc(中转)
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 56711
     type: vmess
@@ -168,6 +168,45 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "be18d66a"
+ -  name: tw2twgc.mlvmess-grpc
+    server: 35.189.160.21
+    port: 443
+    type: vmess
+    uuid: dd0d72f5-458f-450a-8336-dc7fd0632297
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: twgc.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "8d6d36e4"
+ -  name: tw2twgc.mlvmess-grpc(中转)
+    server: fkiclqudpp.eastasia.cloudapp.azure.com
+    port: 36468
+    type: vmess
+    uuid: dd0d72f5-458f-450a-8336-dc7fd0632297
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: twgc.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "8d6d36e4"
+ -  name: tw2twgc.mlvmess-grpc(bj)
+    server: 140.179.148.92
+    port: 30386
+    type: vmess
+    uuid: dd0d72f5-458f-450a-8336-dc7fd0632297
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: twgc.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "8d6d36e4"
  -  name: jp1wxpx.gavmess-grpc
     server: 20.89.94.62
     port: 443
@@ -510,8 +549,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "0a9c97ea"
  - 
-    name: nfnfzz.gcf.cfvmess-grpc(dx)
-    server: cn.xxct.986888.xyz
+    name: nfnfzz.gcf.cfvmess-grpc(bj)
+    server: azbj01.986888.xyz
     port: 10812
     type: vmess
     uuid: 9b3343fa-c998-4273-b38a-798f28aee7de
@@ -684,8 +723,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "609513de"
- -  name: dedeaz.gavmess-grpc（dx）
-    server: cn.xxct.986888.xyz
+ -  name: dedeaz.gavmess-grpc（bj）
+    server: azbj01.986888.xyz
     port: 12183
     type: vmess
     uuid: 35ba0abf-10fb-4bc1-b79c-3edfea382e7f
@@ -801,8 +840,8 @@ proxies:
     #skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
- -  name: dbdbbd.gavmess-grpc(dx)
-    server: cn.xxct.986888.xyz
+ -  name: dbdbbd.gavmess-grpc(bj)
+    server: azbj01.986888.xyz
     port: 59045
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
@@ -879,8 +918,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4017e048"
- -  name: ukukaz.tkvmess-grpc(中转dx)
-    server: cn.xxct.986888.xyz
+ -  name: ukukaz.tkvmess-grpc(bj)
+    server: azbj01.986888.xyz
     port: 41679
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
@@ -944,7 +983,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "31004508"
-      grpc-service-name: "31004508"
  -  name: sgwads.gavmess-grpc
     server: 13.212.53.64
     port: 443
@@ -997,8 +1035,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "25aad2f2"
- -  name: idindogo.gavmess-grpc(dx)
-    server: cn.xxct.986888.xyz
+ -  name: idindogo.gavmess-grpc(bj)
+    server: azbj01.986888.xyz
     port: 49972
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
@@ -1114,9 +1152,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
- -  name: nlnlgp.tkvmess-grpc(dx)
-    server: cn.xxct.986888.xyz
-    port: 16251
+ -  name: nlnlgp.tkvmess-grpc(bj)
+    server: 140.179.148.92
+    port: 48791
     type: vmess
     uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
     alterId: 0
@@ -1153,9 +1191,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
- -  name: bebegp.mlvmess-grpc（dx）
-    server: cn.xxct.986888.xyz
-    port: 34791
+ -  name: bebegp.mlvmess-grpc（bj）
+    server: azbj01.986888.xyz
+    port: 56018
     type: vmess
     uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
     alterId: 0
@@ -1232,8 +1270,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "0851d4fb"
  -  name: flflgcp.gqvmess-grpc(sl)
-    server: cn.shcu.986888.xy
-    port: 46935
+    server: cn.shcu.986888.xyz
+    port: 46953
     type: vmess
     uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
     alterId: 0
@@ -1272,7 +1310,7 @@ proxies:
       grpc-service-name: "fbe21e4d"  
  -  name: blzlgcp.mlvmess-grpc(sl)
     server: cn.shcu.986888.xyz
-    port: 27587
+    port: 27585
     type: vmess
     uuid: 42053015-8798-4245-a6f0-a00642dffb8b
     alterId: 0
