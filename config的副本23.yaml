@@ -19,7 +19,7 @@ udp-rely: true
 proxies:
  - 
     name: hk1dawz.cfvmess-grpc
-    server: 20.239.87.136
+    server: 104.208.116.68
     port: 443
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -592,7 +592,7 @@ proxies:
       grpc-service-name: "0a9c97ea"
  - 
     name: bxbxaz.tk.vmess-grpc
-    server: 20.206.88.233
+    server: 20.226.9.212
     port: 443
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
