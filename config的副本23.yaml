@@ -133,7 +133,7 @@ proxies:
     server: 35.236.173.165
     port: 443
     type: vmess
-    uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
+    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
     alterId: 0
     cipher: auto
     network: grpc
@@ -141,12 +141,12 @@ proxies:
     servername: twge.tk
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "be18d66a"
+      grpc-service-name: "913393d4"
  -  name: tw1twge.tkvmess-grpc(sy)
     server: cn.cmcmyd.986888.xyz
     port: 40489
     type: vmess
-    uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
+    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
     alterId: 0
     cipher: auto
     network: grpc
@@ -154,12 +154,12 @@ proxies:
     servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "be18d66a"
+      grpc-service-name: "913393d4"
  -  name: tw1twge.tkvmess-grpc(中转)
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 56711
     type: vmess
-    uuid: 72fab9d4-69e8-47f5-9a89-9564f8459dc6
+    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
     alterId: 0
     cipher: auto
     network: grpc
@@ -167,7 +167,7 @@ proxies:
     servername: twge.tk
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "be18d66a"
+      grpc-service-name: "913393d4"
  -  name: tw2twgc.mlvmess-grpc
     server: 35.189.160.21
     port: 443
@@ -753,7 +753,7 @@ proxies:
     server: 34.175.21.67
     port: 443
     type: vmess
-    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d3
     alterId: 0
     cipher: auto
     network: grpc
@@ -761,12 +761,12 @@ proxies:
     servername: spgp.tk
     #skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "5bce4c48"
+      grpc-service-name: "b236538"
  -  name: spspgp.tkvmess-grpc(sz)
     server: cn.gysz1.986888.xyz
     port: 27306
     type: vmess
-    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d3
     alterId: 0
     cipher: auto
     network: grpc
@@ -774,12 +774,12 @@ proxies:
     servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "5bce4c48"
+      grpc-service-name: "b236538"
  -  name: spspgp.tkvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 36929
     type: vmess
-    uuid: a6e484b3-3089-4081-9481-60930bd6c638
+    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d3
     alterId: 0
     cipher: auto
     network: grpc
@@ -787,7 +787,7 @@ proxies:
     servername: spgp.tk
     #skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "5bce4c48"
+      grpc-service-name: "b236538"
  -  name: popogp.gqvmess-grpc
     server: 34.116.196.212
     port: 443
@@ -1338,7 +1338,7 @@ proxies:
     server: 34.176.79.23
     port: 443
     type: vmess
-    uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
+    uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
     alterId: 0
     cipher: auto
     network: grpc
@@ -1346,12 +1346,12 @@ proxies:
     servername: zlgp.gq
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "4c1e89bf"
+      grpc-service-name: "ff2c93fe"
  -  name: zlzlgp.gqvmess-grpc(sl)
     server: cn.shcu.986888.xyz
     port: 12424
     type: vmess
-    uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
+    uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
     alterId: 0
     cipher: auto
     network: grpc
@@ -1359,12 +1359,12 @@ proxies:
     servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "4c1e89bf"
+      grpc-service-name: "ff2c93fe"
  -  name: zlzlgp.gqvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 22011
     type: vmess
-    uuid: 7710d1c9-8b0d-4df2-8693-e9927a50d933
+    uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
     alterId: 0
     cipher: auto
     network: grpc
@@ -1372,7 +1372,7 @@ proxies:
     servername: zlgp.gq
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "4c1e89bf"
+      grpc-service-name: "ff2c93fe"
 proxy-groups:
 
 rules:
