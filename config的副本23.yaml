@@ -355,7 +355,7 @@ proxies:
  - 
     name: krmyda.cfvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 49961
+    port: 49940
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
     alterId: 0
@@ -1104,7 +1104,7 @@ proxies:
     server: 20.220.72.183
     port: 443
     type: vmess
-    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    uuid: debb07db-e28f-4e50-8b42-ab8839bcfffb
     alterId: 0
     cipher: auto
     network: grpc
@@ -1112,12 +1112,12 @@ proxies:
     servername: caaz.ml
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "d04e7a0d"
+      grpc-service-name: "fc8d2920"
  -  name: cacaaz.mlvmess-grpc(sl)
     server: cn.shcu.986888.xyz
     port: 29239
     type: vmess
-    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    uuid: debb07db-e28f-4e50-8b42-ab8839bcfffb
     alterId: 0
     cipher: auto
     network: grpc
@@ -1125,12 +1125,12 @@ proxies:
     servername: caaz.ml
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "d04e7a0d"
+      grpc-service-name: "fc8d2920"
  -  name: cacaaz.mlvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 12286
+    port: 40433
     type: vmess
-    uuid: 3796e400-f346-440d-ae6c-c4592993e462
+    uuid: debb07db-e28f-4e50-8b42-ab8839bcfffb
     alterId: 0
     cipher: auto
     network: grpc
@@ -1138,7 +1138,7 @@ proxies:
     servername: caaz.ml
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "d04e7a0d"
+      grpc-service-name: "fc8d2920"
  -  name: nlnlgp.tkvmess-grpc
     server: 34.91.231.233
     port: 443
@@ -1362,7 +1362,7 @@ proxies:
       grpc-service-name: "ff2c93fe"
  -  name: zlzlgp.gqvmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 22011
+    port: 46475
     type: vmess
     uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
     alterId: 0
