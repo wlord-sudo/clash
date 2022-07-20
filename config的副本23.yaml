@@ -74,8 +74,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
  - 
-    name: hk2degas.gavmess-grpc(sy)
-    server: fsyd.kruwik.cn
+    name: hk2degas.gavmess-grpc(gy)
+    server: gy.bzcv.cn
     port: 37928
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -101,20 +101,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- - 
-    name: hk2degas.gavmess-grpc(cn2)
-    server: cn.xxct.986888.xyz
-    port: 63167
-    type: vmess
-    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: degas.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "ff7ad5ef"
  -  name: tw1twge.tkvmess-grpc
     server: 35.236.173.165
     port: 443
@@ -128,8 +114,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(sy)
-    server: fsyd.kruwik.cn
+ -  name: tw1twge.tkvmess-grpc(gy)
+    server: gy.bzcv.cn
     port: 40489
     type: vmess
     uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
@@ -289,7 +275,7 @@ proxies:
  - 
     name: krmyda.cfvmess-grpc(sy)
     server: fsyd.kruwik.cn
-    port: 49940
+    port: 53128
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
     alterId: 0
@@ -329,9 +315,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "0c48bd07"
  - 
-    name: ininda.cfvmess-grpc(sy)
-    server: fsyd.kruwik.cn
-    port: 23463
+    name: ininda.cfvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 23464
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
     alterId: 0
@@ -455,8 +441,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "932b5a9a"
  - 
-    name: audegx.gavmess-grpc(sy)
-    server: fsyd.kruwik.cn
+    name: audegx.gavmess-grpc(gy)
+    server: gy.bzcv.cn
     port: 25241
     type: vmess
     uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
