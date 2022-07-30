@@ -74,6 +74,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
  - 
+    name: hk2degas.gavmess-grpc(fd)
+    server: fsct.1aba.cn
+    port: 51231
+    type: vmess
+    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: degas.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "ff7ad5ef"
+ - 
     name: hk2degas.gavmess-grpc(gy)
     server: gy.bzcv.cn
     port: 37928
@@ -234,7 +248,7 @@ proxies:
       grpc-service-name: "b357b3f2"
  -  name: jp3sgaz.gavmess-grpc(sl)
     server: cn.shcua.986888.xyz
-    port: 49288
+    port: 48288
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
     alterId: 0
