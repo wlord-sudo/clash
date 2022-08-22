@@ -357,7 +357,7 @@ proxies:
       grpc-service-name: "0c48bd07"
  - 
     name: ininda.cfvmess-grpc(gy)
-    server: gy.bzcv.cn
+    server: azsh01.1aba.cn
     port: 15558
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
@@ -525,7 +525,7 @@ proxies:
       grpc-service-name: "99993bf2"
  - 
     name: nfnfzz.gcf.cfvmess-grpc(gy)
-    server: gy.bzcv.cn
+    server: azsh01.1aba.cn
     port: 59289
     type: vmess
     uuid: d37a8999-4dda-427e-b543-5f5c164f8e1b
@@ -607,7 +607,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "29d9c714"
  -  name: frfraz.gqvmess-grpc(gy)
-    server: gy.bzcv.cn
+    server: azsh01.1aba.cn
     port: 43891
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
@@ -646,7 +646,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "02d7553c"
  -  name: swsend.mlvmess-grpc（sz）
-    server: gy.bzcv.cn
+    server: awsbj01.1aba.cn
     port: 19040
     type: vmess
     uuid: 49e73a10-e2f9-4458-8f38-010cf936abe6
@@ -685,7 +685,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "c642113d"
  -  name: dedeaz.gavmess-grpc（gy）
-    server: gy.bzcv.cn
+    server: awsbj01.1aba.cn
     port: 43973
     type: vmess
     uuid: c30b7606-395d-4c42-a59f-8a365c178e73
@@ -802,7 +802,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
  -  name: dbdbbd.gavmess-grpc(gy)
-    server: gy.bzcv.cn
+    server: azsh01.1aba.cn
     port: 65498
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
@@ -919,7 +919,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "31004508"
  -  name: ititaws.mlvmess-grpc(gy)
-    server: gy.bzcv.cn
+    server: awsbj01.1aba.cn
     port: 21835
     type: vmess
     uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
@@ -1192,7 +1192,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "e1dff6f9"
  -  name: rdrdaws.gavmess-grpc(sl)
-    server: cn.shcua.986888.xyz
+    server: azsh01.1aba.cn
     port: 26716
     type: vmess
     uuid: d921b33c-0047-4456-84c8-48d857345cdc
