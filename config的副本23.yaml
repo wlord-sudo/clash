@@ -46,6 +46,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "0d0e68b1"
  - 
+    name: hk1dawz.cfvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 48823
+    type: vmess
+    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0d0e68b1"
+ - 
     name: hk1dawz.cfvmess-grpc(中转)
     server: cuiwhvktfj.eastasia.cloudapp.azure.com
     port: 48474
@@ -91,6 +105,20 @@ proxies:
     name: hk2degas.gavmess-grpc(hy)
     server: cn.hzcm.1aba.cn
     port: 32387
+    type: vmess
+    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "ff7ad5ef"
+ - 
+    name: hk2degas.gavmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 29404
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
     alterId: 0
@@ -317,6 +345,20 @@ proxies:
     name: krmyda.cfvmess-grpc(hy)
     server: cn.hzcm.1aba.cn
     port: 22920
+    type: vmess
+    uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: szextshort.weixin.qq.com
+    skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "b358c3ed"
+ - 
+    name: krmyda.cfvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 33499
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
     alterId: 0
