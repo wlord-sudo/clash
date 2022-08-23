@@ -34,7 +34,7 @@ proxies:
  - 
     name: hk1dawz.cfvmess-grpc(fy)
     server: fsyd.kruwik.cn
-    port: 22970
+    port: 41231
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
     alterId: 0
@@ -90,7 +90,7 @@ proxies:
  - 
     name: hk2degas.gavmess-grpc(fy)
     server: fsyd.kruwik.cn
-    port: 32387
+    port: 24973
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
     alterId: 0
@@ -314,9 +314,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "b358c3ed"
  - 
-    name: krmyda.cfvmess-grpc(gy)
+    name: krmyda.cfvmess-grpc(fy)
     server: fsyd.kruwik.cn
-    port: 27645
+    port: 47418
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
     alterId: 0
