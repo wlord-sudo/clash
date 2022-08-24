@@ -1037,7 +1037,7 @@ proxies:
     servername: indogo.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "25aad2f2"
+      grpc-service-name: "4c894931"
  -  name: idindogo.gavmess-grpc(fy)
     server: gy.bzcv.cn
     port: 29984
@@ -1050,7 +1050,7 @@ proxies:
     servername: szextshort.weixin.qq.com
     skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "25aad2f2"
+      grpc-service-name: "4c894931"
  -  name: idindogo.gavmess-grpc（中转）
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 52354
@@ -1063,12 +1063,12 @@ proxies:
     servername: indogo.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "25aad2f2"
- -  name: iriraz.mlvmess-grpc*
-    server: 20.238.64.130
+      grpc-service-name: "4c894931"
+ -  name: iriraz.mlvmess-grpc
+    server: 34.245.24.241
     port: 443
     type: vmess
-    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
     alterId: 0
     cipher: auto
     network: grpc
@@ -1077,11 +1077,11 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913e3a4e"
- -  name: iriraz.mlvmess-grpc(gy)*
+ -  name: iriraz.mlvmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 64539
+    port: 28470
     type: vmess
-    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
     alterId: 0
     cipher: auto
     network: grpc
@@ -1094,7 +1094,7 @@ proxies:
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 33458
     type: vmess
-    uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
+    uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
     alterId: 0
     cipher: auto
     network: grpc
