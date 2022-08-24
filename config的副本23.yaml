@@ -511,7 +511,7 @@ proxies:
       grpc-service-name: "7236c6b3"
  - 
     name: audegx.gavmess-grpc
-    server: 20.227.142.42
+    server: 20.213.254.145
     port: 443
     type: vmess
     uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
