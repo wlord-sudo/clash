@@ -48,7 +48,7 @@ proxies:
  - 
     name: hk1dawz.cfvmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 48823
+    port: 63533
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
     alterId: 0
@@ -118,7 +118,7 @@ proxies:
  - 
     name: hk2degas.gavmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 29404
+    port: 43909
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
     alterId: 0
