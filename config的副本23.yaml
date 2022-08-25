@@ -156,20 +156,33 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(gy)
-    server: gy.bzcv.cn
-    port: 40489
+ -  name: tw1twge.tkvmess-grpc(azsh)
+    server: azsh01.1aba.cn
+    port: 30435
     type: vmess
     uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: twge.tk
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(中转)
+ -  name: tw1twge.tkvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 53819
+    type: vmess
+    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: twge.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "913393d4"
+ -  name: tw1twge.tkvmess-grpc(中转)*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 56711
     type: vmess
@@ -399,7 +412,7 @@ proxies:
       grpc-service-name: "0c48bd07"
  - 
     name: ininda.cfvmess-grpc(aws)
-    server: azsh01.1aba.cn
+    server: azbj01.1aba.cn
     port: 15558
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
@@ -566,8 +579,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "99993bf2"
  - 
-    name: nfnfzz.gcf.cfvmess-grpc(gy)
-    server: azsh01.1aba.cn
+    name: nfnfzz.gcf.cfvmess-grpc(aws)
+    server: awsbj01.1aba.cn
     port: 59289
     type: vmess
     uuid: d37a8999-4dda-427e-b543-5f5c164f8e1b
@@ -648,8 +661,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "29d9c714"
- -  name: frfraz.gqvmess-grpc(gy)
-    server: azsh01.1aba.cn
+ -  name: frfraz.gqvmess-grpc(aws)
+    server: azbj01.1aba.cn
     port: 43891
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
@@ -767,18 +780,18 @@ proxies:
       grpc-service-name: "b2365380"
  -  name: spspgp.tkvmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 60498
+    port: 35316
     type: vmess
     uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d35
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: spgp.tk
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b2365380"
- -  name: spspgp.tkvmess-grpc（中转）
+ -  name: spspgp.tkvmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 36929
     type: vmess
@@ -806,18 +819,18 @@ proxies:
       grpc-service-name: "fe3436e8"
  -  name: popogp.gqvmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 58483
+    port: 58605
     type: vmess
     uuid: 564c6666-3d1d-4fef-b6c0-596ed077a901
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: pogp.gq
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fe3436e8"
- -  name: popogp.gqvmess-grpc(中转)
+ -  name: popogp.gqvmess-grpc(中转)*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 28150
     type: vmess
@@ -843,8 +856,8 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
- -  name: dbdbbd.gavmess-grpc(gy)
-    server: azsh01.1aba.cn
+ -  name: dbdbbd.gavmess-grpc(aws)
+    server: awsbj01.1aba.cn
     port: 65498
     type: vmess
     uuid: 156106b3-fe76-43f5-85e5-626ed3c24d4d
@@ -1038,20 +1051,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c894931"
- -  name: idindogo.gavmess-grpc(fy)
+ -  name: idindogo.gavmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 29984
+    port: 16972
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: indogo.ga
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c894931"
- -  name: idindogo.gavmess-grpc（中转）
+ -  name: idindogo.gavmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 52354
     type: vmess
@@ -1157,18 +1170,18 @@ proxies:
       grpc-service-name: "d07f96c9"
  -  name: nlnlgp.tkvmess-grpc(gy)
     server: gy.bzcv.cn
-    port: 13040
+    port: 54160
     type: vmess
     uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: nlgp.tk
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
- -  name: nlnlgp.tkvmess-grpc（中转）
+ -  name: nlnlgp.tkvmess-grpc（中转 )*
     server: 20.239.95.5
     port: 64509
     type: vmess
@@ -1194,20 +1207,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
- -  name: bebegp.mlvmess-grpc（bj）
-    server: azbj01.986888.xyz
-    port: 56018
+ -  name: bebegp.mlvmess-grpc（gy ) 
+    server: gy.bzcv.cn
+    port: 28703
     type: vmess
     uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: begp.ml
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0c6ea2ee"
- -  name: bebegp.mlvmess-grpc（中转）
+ -  name: bebegp.mlvmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 23526
     type: vmess
@@ -1233,8 +1246,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "e1dff6f9"
- -  name: rdrdaws.gavmess-grpc(sl)
-    server: azsh01.1aba.cn
+ -  name: rdrdaws.gavmess-grpc(aws)
+    server: awsbj01.1aba.cn
     port: 26716
     type: vmess
     uuid: d921b33c-0047-4456-84c8-48d857345cdc
@@ -1272,20 +1285,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0851d4fb"
- -  name: flflgcp.gqvmess-grpc(sl)
-    server: cn.shcua.986888.xyz
-    port: 46953
+ -  name: flflgcp.gqvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 10151
     type: vmess
     uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: flgcp.gq
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0851d4fb"
- -  name: flflgcp.gqvmess-grpc（中转）
+ -  name: flflgcp.gqvmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 59389
     type: vmess
@@ -1311,20 +1324,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"  
- -  name: blzlgcp.mlvmess-grpc(sl)
-    server: cn.shcua.986888.xyz
-    port: 27585
+ -  name: blzlgcp.mlvmess-grpc(aws)
+    server: awsbj01.1aba.cn
+    port: 39868
     type: vmess
     uuid: 42053015-8798-4245-a6f0-a00642dffb8b
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: zlgcp.ml
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"
- -  name: blzlgcp.mlvmess-grpc（中转）
+ -  name: blzlgcp.mlvmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 55110
     type: vmess
@@ -1350,20 +1363,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff2c93fe"
- -  name: zlzlgp.gqvmess-grpc(sl)
-    server: cn.shcua.986888.xyz
-    port: 12424
+ -  name: zlzlgp.gqvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 15956
     type: vmess
     uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: szextshort.weixin.qq.com
+    servername: zlgp.gq
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff2c93fe"
- -  name: zlzlgp.gqvmess-grpc（中转）
+ -  name: zlzlgp.gqvmess-grpc（中转）*
     server: fkiclqudpp.eastasia.cloudapp.azure.com
     port: 46475
     type: vmess
