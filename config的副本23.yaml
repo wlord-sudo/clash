@@ -249,7 +249,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp2dwzz.gavmess-grpc
-    server: 13.208.208.83
+    server: 15.152.47.49
     port: 443
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -309,7 +309,7 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dwzz.ga
+    servername: sgaz.cf
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
