@@ -819,7 +819,7 @@ proxies:
       grpc-service-name: "fe3436e8"
  -  name: popogp.gqvmess-grpc(gy)
     server: cn.hzcm.1aba.cn
-    port: 58605
+    port: 27610
     type: vmess
     uuid: 564c6666-3d1d-4fef-b6c0-596ed077a901
     alterId: 0
