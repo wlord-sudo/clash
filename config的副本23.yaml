@@ -300,8 +300,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
- -  name: jp3sgaz.gavmess-grpc(hl)
-    server: cn.hncu.1aba.cn
+ -  name: jp3sgaz.gavmess-grpc(sl)
+    server: shcu.1aba.cn
     port: 57894
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
