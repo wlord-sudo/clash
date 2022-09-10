@@ -288,7 +288,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
  -  name: jp3sgaz.gavmess-grpc
-    server: 18.183.50.57
+    server: 54.250.182.254
     port: 443
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
@@ -524,7 +524,7 @@ proxies:
       grpc-service-name: "7236c6b3"
  - 
     name: audegx.gavmess-grpc
-    server: 20.213.254.145
+    server: 20.37.2.28
     port: 443
     type: vmess
     uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
@@ -535,7 +535,7 @@ proxies:
     servername: degx.ga
     ## skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "932b5a9a"
+      grpc-service-name: "c7a2b06f"
  - 
     name: audegx.gavmess-grpc(gy)
     server: gy.bzcv.cn
@@ -549,7 +549,7 @@ proxies:
     servername: degx.ga
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "932b5a9a"
+      grpc-service-name: "c7a2b06f"
  - 
     name: audegx.gavmess-grpc(中转)*
     server: dlgrvxpfog.eastasia.cloudapp.azure.com
@@ -563,7 +563,7 @@ proxies:
     servername: degx.ga
     ## skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "932b5a9a"
+      grpc-service-name: "c7a2b06f"
  - 
     name: nfnfzz.gcf.cfvmess-grpc
     server: 20.87.42.254
@@ -883,7 +883,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
  -  name: nynyaz.mlvmess-grpc
-    server: 51.107.214.77
+    server: 51.13.57.184
     port: 443
     type: vmess
     uuid: 35fc8bd5-dc1d-4e2c-857a-8e771edf4a17
