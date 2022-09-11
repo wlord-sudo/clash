@@ -143,6 +143,34 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
+ - 
+    name: sgairs.eu.orgvmess-grpc
+    server: 8.219.159.185
+    port: 443
+    type: vmess
+    uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername:  ali.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "6609dd53"
+ - 
+    name: sgairs.eu.orgvmess-grpc(gy)
+    server: gy.bzcv.cn
+    port: 65205
+    type: vmess
+    uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername:  ali.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "6609dd53"
  -  name: tw1twge.tkvmess-grpc
     server: 35.236.173.165
     port: 443
