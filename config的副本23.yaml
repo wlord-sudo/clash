@@ -56,7 +56,7 @@ proxies:
     network: grpc
     tls: true
     servername: dawz.cf
-    # s# skip-cert-verify: true
+    # s# skip-cert-verify: trueg
     grpc-opts:
       grpc-service-name: "0d0e68b1"
  - 
@@ -158,9 +158,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "6609dd53"
  - 
-    name: sgairs.eu.orgvmess-grpc(gy)
-    server: gy.bzcv.cn
-    port: 65205
+    name: sgairs.eu.orgvmess-grpc(hy)
+    server: cn.hzcm.1aba.cn
+    port: 45184
     type: vmess
     uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
     alterId: 0
