@@ -33,7 +33,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
  - 
     name: hk1dawz.cfvmess-grpc(azsh)
-    server: azsh01.1aba.cn
+    server: azbj01.1aba.cn
     port: 51913
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -103,7 +103,7 @@ proxies:
       grpc-service-name: "ff7ad5ef"
  - 
     name: hk2degas.gavmess-grpc(azsh)
-    server: azsh01.1aba.cn
+    server: azbj01.1aba.cn
     port: 51231
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -185,7 +185,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "913393d4"
  -  name: tw1twge.tkvmess-grpc(azsh)
-    server: azsh01.1aba.cn
+    server: azbj01.1aba.cn
     port: 30435
     type: vmess
     uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
@@ -225,7 +225,7 @@ proxies:
       grpc-service-name: "913393d4"
 
  -  name: jp1wxpx.gavmess-grpc
-    server: 20.210.251.72
+    server: 13.230.188.211
     port: 443
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
@@ -384,7 +384,7 @@ proxies:
       grpc-service-name: "b358c3ed"
  - 
     name: krmyda.cfvmess-grpc(azsh)
-    server: azsh01.1aba.cn
+    server: azbj01.1aba.cn
     port: 57958
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
@@ -755,7 +755,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "02d7553c"
  -  name: dedeaz.gavmess-grpc
-    server: 20.113.58.52
+    server: 3.123.43.209
     port: 443
     type: vmess
     uuid: c30b7606-395d-4c42-a59f-8a365c178e73
