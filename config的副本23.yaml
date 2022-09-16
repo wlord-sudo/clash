@@ -1067,7 +1067,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
  -  name: idindogo.gavmess-grpc
-    server: 108.136.60.64
+    server: 108.136.186.128
     port: 443
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
