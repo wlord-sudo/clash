@@ -158,9 +158,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "6609dd53"
  - 
-    name: sgairs.eu.orgvmess-grpc(hy)
-    server: cn.cmcmyd.1aba.cn
-    port: 45184
+    name: sgairs.eu.orgvmess-grpc(gy)
+    server: ydgy.fosi.hk
+    port: 25321
     type: vmess
     uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
     alterId: 0
@@ -1040,9 +1040,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
- -  name: sgwads.gavmess-grpc(hy)
-    server: cn.cmcmyd.1aba.cn
-    port: 64576
+ -  name: sgwads.gavmess-grpc(gy)
+    server: ydgy.fosi.hk
+    port: 53726
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
     alterId: 0
@@ -1119,8 +1119,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "913e3a4e"
  -  name: iriraz.mlvmess-grpc(gy)
-    server: cn.cmcmyd.1aba.cn
-    port: 28470
+    server: ydgy.fosi.hk
+    port: 59614
     type: vmess
     uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
     alterId: 0
