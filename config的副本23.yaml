@@ -47,8 +47,8 @@ proxies:
       grpc-service-name: "0d0e68b1"
  - 
     name: hk1dawz.cfvmess-grpc(gy)
-    server: fsyy.fosi.hk
-    port: 63533
+    server: ydgy.fosi.hk
+    port: 26556
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
     alterId: 0
