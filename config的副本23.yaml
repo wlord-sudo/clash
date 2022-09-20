@@ -552,10 +552,10 @@ proxies:
       grpc-service-name: "7236c6b3"
  - 
     name: audegx.gavmess-grpc
-    server: 20.37.2.28
+    server: 13.239.11.191
     port: 443
     type: vmess
-    uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
+    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
     alterId: 0
     cipher: auto
     network: grpc
@@ -566,10 +566,10 @@ proxies:
       grpc-service-name: "c7a2b06f"
  - 
     name: audegx.gavmess-grpc(gy)
-    server: fsyy.fosi.hk
+    server: ydgy.fosi.hk
     port: 13742
     type: vmess
-    uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
+    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
     alterId: 0
     cipher: auto
     network: grpc
@@ -583,7 +583,7 @@ proxies:
     server: dlgrvxpfog.eastasia.cloudapp.azure.com
     port: 45956
     type: vmess
-    uuid: 4f1d712b-fbce-4a00-87aa-d823040a0430
+    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
     alterId: 0
     cipher: auto
     network: grpc
