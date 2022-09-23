@@ -46,9 +46,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "0d0e68b1"
  - 
-    name: hk1dawz.cfvmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 26556
+    name: hk1dawz.cfvmess-grpc(iepl)
+    server: gyiepl.1aba.cn
+    port: 42802
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
     alterId: 0
@@ -158,9 +158,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "6609dd53"
  - 
-    name: sgairs.eu.orgvmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 25321
+    name: sgairs.eu.orgvmess-grpc(iepl)
+    server: gyiepl.1aba.cn
+    port: 52678
     type: vmess
     uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
     alterId: 0
@@ -565,9 +565,9 @@ proxies:
     grpc-opts:
       grpc-service-name: "c7a2b06f"
  - 
-    name: audegx.gavmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 13742
+    name: audegx.gavmess-grpc(aws)
+    server: awsbj01.1aba.cn
+    port: 26380
     type: vmess
     uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
     alterId: 0
@@ -910,7 +910,7 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
- -  name: nynyaz.mlvmess-grpc
+ -  name: nyaz.mlvmess-grpc
     server: 20.251.9.244
     port: 443
     type: vmess
@@ -962,9 +962,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4017e048"
- -  name: ukukaz.tkvmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 39010
+ -  name: ukukaz.tkvmess-grpc(aws)
+    server: awsbj01.1aba.cn
+    port: 57910
     type: vmess
     uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
     alterId: 0
@@ -1041,8 +1041,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
  -  name: sgwads.gavmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 53726
+    server: gyiepl.1aba.cn
+    port: 31512
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
     alterId: 0
@@ -1079,9 +1079,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c894931"
- -  name: idindogo.gavmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 47353
+ -  name: idindogo.gavmess-grpc(aws)
+    server: awsbj01.1aba.cn
+    port: 17872
     type: vmess
     uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
     alterId: 0
@@ -1118,9 +1118,9 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "913e3a4e"
- -  name: iriraz.mlvmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 59614
+ -  name: iriraz.mlvmess-grpc(aws)
+    server: awsbj01.1aba.cn
+    port: 56536
     type: vmess
     uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
     alterId: 0
