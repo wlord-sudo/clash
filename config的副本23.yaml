@@ -911,7 +911,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f6688538"
  -  name: nynyaz.mlvmess-grpc
-    server: 51.13.57.184
+    server: 20.251.9.244
     port: 443
     type: vmess
     uuid: 35fc8bd5-dc1d-4e2c-857a-8e771edf4a17
