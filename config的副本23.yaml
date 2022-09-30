@@ -1062,7 +1062,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fc8d2920"
  -  name: nlnlgp.tkvmess-grpc
-    server: 34.91.231.233
+    server: 168.63.124.230
     port: 443
     type: vmess
     uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
@@ -1075,8 +1075,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "d07f96c9"
  -  name: nlnlgp.tkvmess-grpc(gy)
-    server: fsyy.fosi.hk
-    port: 54160
+    server: ydgy.fosi.hk
+    port: 39415
     type: vmess
     uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
     alterId: 0
