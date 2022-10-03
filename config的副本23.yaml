@@ -218,59 +218,30 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "jicktrojangrpc"
- -  name: tw1twge.tkvmess-grpc
-    server: 35.236.173.165
-    port: 443
+ -  name: tw1twge.tkvmess
+    server: 36.231.178.51
+    port: 10810
     type: vmess
-    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
-    alterId: 0
+    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
+    alterId: 79
     cipher: auto
-    network: grpc
-    tls: true
-    servername: twge.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(azsh)
-    server: azbj01.1aba.cn
-    port: 30435
+    network: tcp
+ -  name: tw1twge.tkvmess(gd)
+    server: gddx.fosi.hk
+    port: 25985
     type: vmess
-    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
-    alterId: 0
+    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
+    alterId: 79
     cipher: auto
-    network: grpc
-    tls: true
-    servername: twge.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(gy)
-    server: fsyy.fosi.hk
-    port: 53819
+    network: tcp
+ -  name: tw1twge.tkvmess(iepl)
+    server: syiepl.fosi.hk
+    port: 47830
     type: vmess
-    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
-    alterId: 0
+    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
+    alterId: 79
     cipher: auto
-    network: grpc
-    tls: true
-    servername: twge.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "913393d4"
- -  name: tw1twge.tkvmess-grpc(中转)*
-    server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 56711
-    type: vmess
-    uuid: 618b2d50-0853-4c10-a78c-28cf8c2438ec
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: twge.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "913393d4"
-
+    network: tcp
  -  name: jp1wxpx.gavmess-grpc
     server: 13.230.188.211
     port: 443
