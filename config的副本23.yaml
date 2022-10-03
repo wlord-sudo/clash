@@ -185,6 +185,39 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "6609dd53"
+ - 
+    name: sg.airs.eu.orgtrojan-grpc
+    server: 20.247.97.19
+    port: 443
+    type: trojan
+    password: a0c50235-521a-484c-ab3c-7c5f167e5073
+    network: grpc
+    sni:  sg.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "jicktrojangrpc"
+ - 
+    name: sg.airs.eu.orgtrojan-grpc(gd)
+    server: gddx.fosi.hk
+    port: 12252
+    type: trojan
+    password: a0c50235-521a-484c-ab3c-7c5f167e5073
+    network: grpc
+    sni:  sg.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "jicktrojangrpc"
+ - 
+    name: sg.airs.eu.orgtrojan-grpc(gy)
+    server: ydgy.fosi.hk
+    port: 46043
+    type: trojan
+    password: a0c50235-521a-484c-ab3c-7c5f167e5073
+    network: grpc
+    sni:  sg.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "jicktrojangrpc"
  -  name: tw1twge.tkvmess-grpc
     server: 35.236.173.165
     port: 443
