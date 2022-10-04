@@ -242,21 +242,8 @@ proxies:
     alterId: 79
     cipher: auto
     network: tcp
- -  name: jp1wxpx.gavmess-grpc
-    server: 13.230.188.211
-    port: 443
-    type: vmess
-    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wxpx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b357b3f2"
  -  name: myvmess
-    server: 175.143.93.197
+    server: 1.hkust.eu.org
     port: 10009
     type: vmess
     uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
@@ -271,7 +258,7 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
- -  name: myvmess(gy)
+ -  name: myvmess(gd)
     server: gyiepl.1aba.cn
     port: 35566
     type: vmess
@@ -357,6 +344,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "4c894931"
+ -  name: jp1wxpx.gavmess-grpc
+    server: 13.230.188.211
+    port: 443
+    type: vmess
+    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: wxpx.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "b357b3f2"
  -  name: jp1wxpx.gavmess-grpc(hn)
     server: gyiepl.1aba.cn
     port: 56532
