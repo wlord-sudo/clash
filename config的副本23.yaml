@@ -186,7 +186,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "6609dd53"
  -  name: hkispvmess
-    server: 203.198.116.202
+    server: 2.hkust.eu.org
     port: 23901
     type: vmess
     uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
@@ -209,39 +209,7 @@ proxies:
     alterId: 57
     cipher: auto
     network: tcp
- - 
-    name: hk sg.airs.eu.orgtrojan-grpc
-    server: 20.247.97.19
-    port: 443
-    type: trojan
-    password: a0c50235-521a-484c-ab3c-7c5f167e5073
-    network: grpc
-    sni:  sg.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "jicktrojangrpc"
- - 
-    name: hk sg.airs.eu.orgtrojan-grpc(gd)
-    server: gddx.fosi.hk
-    port: 12252
-    type: trojan
-    password: a0c50235-521a-484c-ab3c-7c5f167e5073
-    network: grpc
-    sni:  sg.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "jicktrojangrpc"
- - 
-    name: hk sg.airs.eu.orgtrojan-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 46043
-    type: trojan
-    password: a0c50235-521a-484c-ab3c-7c5f167e5073
-    network: grpc
-    sni:  sg.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "jicktrojangrpc"
+
  -  name: tw1twge.tkvmess
     server: 36.231.178.51
     port: 10810
