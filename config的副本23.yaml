@@ -185,6 +185,30 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "6609dd53"
+ -  name: hkispvmess
+    server: 203.198.116.202
+    port: 23901
+    type: vmess
+    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
+    alterId: 57
+    cipher: auto
+    network: tcp
+ -  name: hkispvmess(gd)
+    server: gyiepl.1aba.cn
+    port: 50071
+    type: vmess
+    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
+    alterId: 57
+    cipher: auto
+    network: tcp
+ -  name: hkispvmess(iepl)
+    server: syiepl.fosi.hk
+    port: 45212
+    type: vmess
+    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
+    alterId: 57
+    cipher: auto
+    network: tcp
  - 
     name: hk sg.airs.eu.orgtrojan-grpc
     server: 20.247.97.19
