@@ -466,19 +466,39 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
- -  name: jp3sgaz.gavmess-grpc（中转jp）*
-    server: gsicjexeyu.japaneast.cloudapp.azure.com
-    port: 32994
-    type: vmess
-    uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
-    alterId: 0
-    cipher: auto
+ -  name: jpmediatrojan-grpc
+    server: 20.46.121.236
+    port: 443
+    type: trojan
+    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
     network: grpc
-    tls: true
-    servername: sgaz.cf
+    sni: jp.gofun.gay
     # skip-cert-verify: true
+    udp: true
     grpc-opts:
-      grpc-service-name: "b357b3f2"
+      grpc-service-name: "iuurtrojangrpc"
+ -  name: jpmediatrojan-grpc(slsoft)
+    server: shcu.1aba.cn
+    port: 48620
+    type: trojan
+    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
+    network: grpc
+    sni: jp.gofun.gay
+    # skip-cert-verify: true
+    udp: true
+    grpc-opts:
+      grpc-service-name: "iuurtrojangrpc"
+ -  name: jpmediatrojan-grpc(slaz)
+    server: shcu2.1aba.cn
+    port: 30428
+    type: trojan
+    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
+    network: grpc
+    sni: jp.gofun.gay
+    # skip-cert-verify: true
+    udp: true
+    grpc-opts:
+      grpc-service-name: "iuurtrojangrpc"
  - 
     name: krmyda.cfvmess-grpc
     server: 20.196.198.12
@@ -677,7 +697,7 @@ proxies:
       grpc-service-name: "7236c6b3"
  - 
     name: audegx.gavmess-grpc
-    server: 13.239.11.191
+    server: 52.62.231.219
     port: 443
     type: vmess
     uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
