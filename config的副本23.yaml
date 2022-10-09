@@ -7,7 +7,7 @@
 ## 如果您不知道如何操作，请参阅 官方Github文档 https://github.com/Dreamacro/clash/blob/dev/README.md
 #---------------------------------------------------#
 
-# (HTTP and SOCKS5 in one port)
+# (HTTP and SOCKS5 in one port)x
 mixed-port: 7890
 # RESTful API for clash
 external-controller: 127.0.0.1:9090
@@ -211,7 +211,7 @@ proxies:
     network: tcp
 
  -  name: tw1twge.tkvmess
-    server: 36.231.178.51
+    server: tw1.ddns-pop.cyou
     port: 10810
     type: vmess
     uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
@@ -695,6 +695,24 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "7236c6b3"
+ - 
+    name: us3median
+    server: 66.181.33.108
+    port: 20045
+    type: vmess
+    uuid: 8ef66779-3af5-462c-974f-e762eca95b18
+    alterId: 73
+    cipher: auto
+    network: tcp
+ - 
+    name: us3median(iepl)
+    server: syiepl.fosi.hk
+    port: 13984
+    type: vmess
+    uuid: 8ef66779-3af5-462c-974f-e762eca95b18
+    alterId: 73
+    cipher: auto
+    network: tcp
  - 
     name: audegx.gavmess-grpc
     server: 52.62.231.219
@@ -1432,14 +1450,124 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff2c93fe"
 proxy-groups:
-
+- name: proxy
+  type: select
+  proxies:
+    - DIRECT
+    - REJECT
+    - hk1dawz.cfvmess-grpc
+    - hk1dawz.cfvmess-grpc(azsh)
+    - hk1dawz.cfvmess-grpc(hn)
+    - hk1dawz.cfvmess-grpc(gd)
+    - hk2degas.gavmess-grpc
+    - hk2degas.gavmess-grpc(hn)
+    - hk2degas.gavmess-grpc(gd)
+    - hk2degas.gavmess-grpc(azsh)
+    - hk2degas.gavmess-grpc(gy)
+    - sgairs.eu.orgvmess-grpc
+    - sgairs.eu.orgvmess-grpc(hn)
+    - sgairs.eu.orgvmess-grpc(gd)
+    - hkispvmess
+    - hkispvmess(gd)
+    - hkispvmess(iepl)
+    - tw1twge.tkvmess
+    - tw1twge.tkvmess(gd)
+    - tw1twge.tkvmess(iepl)
+    - myvmess
+    - myvmess(iepl)
+    - myvmess(gd)
+    - sgwads.gavmess-grpc
+    - sgwads.gavmess-grpc(hn)
+    - sgwads.gavmess-grpc(gd)
+    - idindogo.gavmess-grpc
+    - idindogo.gavmess-grpc(hn)
+    - idindogo.gavmess-grpc(gd)
+    - jp1wxpx.gavmess-grpc
+    - jp1wxpx.gavmess-grpc(hn)
+    - jp1wxpx.gavmess-grpc(gd)
+    - jp1wxpx.gavmess-grpc(sl)
+    - jp2dwzz.gavmess-grpc
+    - jp2dwzz.gavmess-grpc(aws)
+    - jp2dwzz.gavmess-grpc(sl)
+    - jp2dwzz.gavmess-grpc(中转)*
+    - jp3sgaz.gavmess-grpc
+    - jp3sgaz.gavmess-grpc(aws)
+    - jpmediatrojan-grpc
+    - jpmediatrojan-grpc(slsoft)
+    - jpmediatrojan-grpc(slaz)
+    - krmyda.cfvmess-grpc
+    - krmyda.cfvmess-grpc(hn)
+    - krmyda.cfvmess-grpc(gd)
+    - krmyda.cfvmess-grpc(azsh)
+    - krmyda.cfvmess-grpc(gy)
+    - ininda.cfvmess-grpc
+    - ininda.cfvmess-grpc(gy)
+    - ininda.cfvmess-grpc(aws)
+    - uswg66.ml.cfvmess-grpc
+    - uswg66.ml.cfvmess-grpc(aws)
+    - uswg66.ml.cfvmess-grpc(sl)
+    - us2usaz.cfvmess-grpc
+    - us2usaz.cfvmess-grpc(sl)
+    - us2usaz.cfvmess-grpc(aws)
+    - audegx.gavmess-grpc
+    - audegx.gavmess-grpc(aws)
+    - audegx.gavmess-grpc(gy)
+    - nfnfzz.gcf.cfvmess-grpc
+    - nfnfzz.gcf.cfvmess-grpc(aws)
+    - bxbxaz.tk.vmess-grpc
+    - bxbxaz.tk.vmess-grpc(aws)
+    - bxbxaz.tk.vmess-grpc（中转）*
+    - frfraz.gqvmess-grpc
+    - frfraz.gqvmess-grpc(aws)
+    - frfraz.gqvmess-grpc（gy）
+    - swsend.mlvmess-grpc
+    - swsend.mlvmess-grpc（aws）
+    - swsend.mlvmess-grpc（hn）
+    - dedeaz.gavmess-grpc
+    - dedeaz.gavmess-grpc（aws）
+    - dedeaz.gavmess-grpc（hn）
+    - spspgp.tkvmess-grpc
+    - spspgp.tkvmess-grpc(gy)
+    - spspgp.tkvmess-grpc（中转）*
+    - popogp.gqvmess-grpc
+    - popogp.gqvmess-grpc(gy)
+    - popogp.gqvmess-grpc(中转)*
+    - dbdbbd.gavmess-grpc
+    - dbdbbd.gavmess-grpc(aws)
+    - dbdbbd.gavmess-grpc（hn)
+    - nyaz.mlvmess-grpc
+    - nynyaz.mlvmess-grpc(aws)
+    - nynyaz.mlvmess-grpc（hn）
+    - ukukaz.tkvmess-grpc
+    - ukukaz.tkvmess-grpc(aws)
+    - ukukaz.tkvmess-grpc(hn)
+    - ititaws.mlvmess-grpc
+    - ititaws.mlvmess-grpc(aws)
+    - ititaws.mlvmess-grpc(gy)
+    - iriraz.mlvmess-grpc
+    - iriraz.mlvmess-grpc(hn)
+    - iriraz.mlvmess-grpc(aws)
+    - cacaaz.mlvmess-grpc
+    - cacaaz.mlvmess-grpc(sl)
+    - nlnlgp.tkvmess-grpc
+    - nlnlgp.tkvmess-grpc(gy)
+    - bebegp.mlvmess-grpc
+    - bebegp.mlvmess-grpc（gy)
+    - bebegp.mlvmess-grpc（中转）*
+    - rdrdaws.gavmess-grpc
+    - rdrdaws.gavmess-grpc(aws)
+    - rdrdaws.gavmess-grpc(gy)
+    - flflgcp.gqvmess-grpc
+    - flflgcp.gqvmess-grpc(hy)
+    - blzlgcp.mlvmess-grpc
+    - blzlgcp.mlvmess-grpc(aws)
+    - blzlgcp.mlvmess-grpc(gy)
+    - zlzlgp.gqvmess-grpc
+    - zlzlgp.gqvmess-grpc(gy)
+    - zlzlgp.gqvmess-grpc（中转）*
 rules:
- - DOMAIN-SUFFIX,google.com,DIRECT
- - DOMAIN-KEYWORD,google,DIRECT
- - DOMAIN,google.com,DIRECT
- - DOMAIN-SUFFIX,ad.com,REJECT
  - GEOIP,CN,DIRECT
- - MATCH,DIRECT
+ - MATCH,proxy
 dns:
   enable: true # set true to enable dns (default is false)
   ipv6: true # default is false
