@@ -698,10 +698,10 @@ proxies:
  - 
     name: us3median
     server: 66.181.33.108
-    port: 20045
+    port: 20345
     type: vmess
-    uuid: 8ef66779-3af5-462c-974f-e762eca95b18
-    alterId: 73
+    uuid: e58e9be7-e8ac-42c5-bea1-2035510765e9
+    alterId: 51
     cipher: auto
     network: tcp
  - 
@@ -709,8 +709,8 @@ proxies:
     server: syiepl.fosi.hk
     port: 13984
     type: vmess
-    uuid: 8ef66779-3af5-462c-974f-e762eca95b18
-    alterId: 73
+    uuid: e58e9be7-e8ac-42c5-bea1-2035510765e9
+    alterId: 51
     cipher: auto
     network: tcp
  - 
