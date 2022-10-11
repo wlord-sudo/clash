@@ -784,6 +784,34 @@ proxies:
     grpc-opts:
       grpc-service-name: "99993bf2"
  - 
+    name: bxbr.gofun.gay.vmess-grpc
+    server: 54.232.57.51
+    port: 443
+    type: vmess
+    uuid: cb0d922c-70bf-484e-b2d9-771c0109b4c3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: br.gofun.gay
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "418c6735"
+ - 
+    name: bxbr.gofun.gay.vmess-grpc(sl)
+    server: shcu2.1aba.cn
+    port: 54379
+    type: vmess
+    uuid: cb0d922c-70bf-484e-b2d9-771c0109b4c3
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: br.gofun.gay
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "418c6735"
+ - 
     name: bxbxaz.tk.vmess-grpc
     server: 20.226.9.212
     port: 443
@@ -1509,11 +1537,15 @@ proxy-groups:
     - us2usaz.cfvmess-grpc
     - us2usaz.cfvmess-grpc(sl)
     - us2usaz.cfvmess-grpc(aws)
+    - us3median
+    - us3median(iepl)
     - audegx.gavmess-grpc
     - audegx.gavmess-grpc(aws)
     - audegx.gavmess-grpc(gy)
     - nfnfzz.gcf.cfvmess-grpc
     - nfnfzz.gcf.cfvmess-grpc(aws)
+    - bxbr.gofun.gay.vmess-grpc
+    - bxbr.gofun.gay.vmess-grpc(sl)
     - bxbxaz.tk.vmess-grpc
     - bxbxaz.tk.vmess-grpc(aws)
     - bxbxaz.tk.vmess-grpc（中转）*
