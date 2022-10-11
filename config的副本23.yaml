@@ -189,24 +189,24 @@ proxies:
     server: 2.hkust.eu.org
     port: 23901
     type: vmess
-    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
-    alterId: 57
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 65
     cipher: auto
     network: tcp
  -  name: hkispvmess(gd)
     server: gyiepl.1aba.cn
     port: 50071
     type: vmess
-    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
-    alterId: 57
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 65
     cipher: auto
     network: tcp
  -  name: hkispvmess(iepl)
     server: syiepl.fosi.hk
     port: 45212
     type: vmess
-    uuid: c20b66c3-20fe-4de2-8077-07ee684c26d5
-    alterId: 57
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 65
     cipher: auto
     network: tcp
 
@@ -216,6 +216,30 @@ proxies:
     type: vmess
     uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
     alterId: 79
+    cipher: auto
+    network: tcp
+ -  name: tw2twge.tkvmess
+    server: tw1.fastyun.cc
+    port: 20045
+    type: vmess
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 0
+    cipher: auto
+    network: tcp
+ -  name: tw2twge.tkvmess(iepl)
+    server: syiepl.fosi.hk
+    port: 40743
+    type: vmess
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 0
+    cipher: auto
+    network: tcp
+ -  name: tw2twge.tkvmess(gd)
+    server: gddx.fosi.hk
+    port: 62244
+    type: vmess
+    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
+    alterId: 0
     cipher: auto
     network: tcp
  -  name: tw1twge.tkvmess(gd)
@@ -1498,6 +1522,9 @@ proxy-groups:
     - hkispvmess
     - hkispvmess(gd)
     - hkispvmess(iepl)
+    - tw2twge.tkvmess
+    - tw2twge.tkvmess(gd)
+    - tw2twge.tkvmess(iepl)
     - tw1twge.tkvmess
     - tw1twge.tkvmess(gd)
     - tw1twge.tkvmess(iepl)
