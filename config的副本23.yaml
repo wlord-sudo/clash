@@ -143,48 +143,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- - 
-    name: sgairs.eu.orgvmess-grpc
-    server: 8.219.159.185
-    port: 443
-    type: vmess
-    uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername:  ali.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "6609dd53"
- - 
-    name: sgairs.eu.orgvmess-grpc(hn)
-    server: gyiepl.1aba.cn
-    port: 52678
-    type: vmess
-    uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername:  ali.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "6609dd53"
- - 
-    name: sgairs.eu.orgvmess-grpc(gd)
-    server: gddx.fosi.hk
-    port: 52678
-    type: vmess
-    uuid: 4ff7a0d4-306f-49bd-832e-ced9543877be
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername:  ali.airs.eu.org
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "6609dd53"
  -  name: hkispvmess
     server: 2.hkust.eu.org
     port: 23901
@@ -490,39 +448,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b357b3f2"
- -  name: jpmediatrojan-grpc
-    server: 20.46.121.236
-    port: 443
-    type: trojan
-    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
-    network: grpc
-    sni: jp.gofun.gay
-    # skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "iuurtrojangrpc"
- -  name: jpmediatrojan-grpc(slsoft)
-    server: shcu.1aba.cn
-    port: 48620
-    type: trojan
-    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
-    network: grpc
-    sni: jp.gofun.gay
-    # skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "iuurtrojangrpc"
- -  name: jpmediatrojan-grpc(slaz)
-    server: shcu2.1aba.cn
-    port: 30428
-    type: trojan
-    password: "1fcb6516-09b6-4c0d-8771-e2672f16c129"
-    network: grpc
-    sni: jp.gofun.gay
-    # skip-cert-verify: true
-    udp: true
-    grpc-opts:
-      grpc-service-name: "iuurtrojangrpc"
  - 
     name: krmyda.cfvmess-grpc
     server: 20.196.198.12
@@ -1516,9 +1441,6 @@ proxy-groups:
     - hk2degas.gavmess-grpc(gd)
     - hk2degas.gavmess-grpc(azsh)
     - hk2degas.gavmess-grpc(gy)
-    - sgairs.eu.orgvmess-grpc
-    - sgairs.eu.orgvmess-grpc(hn)
-    - sgairs.eu.orgvmess-grpc(gd)
     - hkispvmess
     - hkispvmess(gd)
     - hkispvmess(iepl)
@@ -1547,9 +1469,6 @@ proxy-groups:
     - jp2dwzz.gavmess-grpc(中转)*
     - jp3sgaz.gavmess-grpc
     - jp3sgaz.gavmess-grpc(aws)
-    - jpmediatrojan-grpc
-    - jpmediatrojan-grpc(slsoft)
-    - jpmediatrojan-grpc(slaz)
     - krmyda.cfvmess-grpc
     - krmyda.cfvmess-grpc(hn)
     - krmyda.cfvmess-grpc(gd)
