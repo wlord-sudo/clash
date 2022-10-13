@@ -167,15 +167,6 @@ proxies:
     alterId: 65
     cipher: auto
     network: tcp
-
- -  name: tw1twge.tkvmess
-    server: tw1.ddns-pop.cyou
-    port: 10810
-    type: vmess
-    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
-    alterId: 79
-    cipher: auto
-    network: tcp
  -  name: tw2twge.tkvmess
     server: tw1.fastyun.cc
     port: 20045
@@ -198,6 +189,13 @@ proxies:
     type: vmess
     uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
     alterId: 0
+    cipher: auto
+ -  name: tw1twge.tkvmess
+    server: tw1.gofun.gay
+    port: 10810
+    type: vmess
+    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
+    alterId: 79
     cipher: auto
     network: tcp
  -  name: tw1twge.tkvmess(gd)
@@ -423,7 +421,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
  -  name: jp3sgaz.gavmess-grpc
-    server: 54.250.182.254
+    server: 18.183.57.183
     port: 443
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
