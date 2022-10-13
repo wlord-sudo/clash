@@ -665,7 +665,7 @@ proxies:
     server: 52.62.231.219
     port: 443
     type: vmess
-    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
+    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
     alterId: 0
     cipher: auto
     network: grpc
@@ -679,7 +679,7 @@ proxies:
     server: awsbj01.1aba.cn
     port: 26380
     type: vmess
-    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
+    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
     alterId: 0
     cipher: auto
     network: grpc
@@ -693,7 +693,7 @@ proxies:
     server: ydgy.fosi.hk
     port: 53779
     type: vmess
-    uuid: d5547eee-fa57-4ca8-bf75-a4f800d0b27f
+    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
     alterId: 0
     cipher: auto
     network: grpc
