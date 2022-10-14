@@ -369,7 +369,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp2dwzz.gavmess-grpc
-    server: 15.152.47.49
+    server: 13.208.187.22
     port: 443
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
