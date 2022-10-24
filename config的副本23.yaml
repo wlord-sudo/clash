@@ -1043,7 +1043,20 @@ proxies:
     cipher: auto
     network: grpc
     tls: true
-    servername: dbbd.ga
+    servername: qa.airs.eu.org
+    ## skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "a150bda7"
+ -  name: qa.airs.eu.orgvmess-grpc(iepl)
+    server: syiepl.fosi.hk
+    port: 52457
+    type: vmess
+    uuid: d48b7bb5-7f7c-4a34-b471-dc16b0ad7ef2
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: qa.airs.eu.org
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "a150bda7"
@@ -1524,6 +1537,8 @@ proxy-groups:
     - dbdbbd.gavmess-grpc
     - dbdbbd.gavmess-grpc(aws)
     - dbdbbd.gavmess-grpc（hn)
+    - qa.airs.eu.orgvmess-grpc
+    - qa.airs.eu.orgvmess-grpc(iepl)
     - nyaz.mlvmess-grpc
     - nynyaz.mlvmess-grpc(aws)
     - nynyaz.mlvmess-grpc（hn）
