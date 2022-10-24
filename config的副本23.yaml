@@ -147,24 +147,24 @@ proxies:
     server: 2.hkust.eu.org
     port: 23901
     type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 65
+    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
+    alterId: 76
     cipher: auto
     network: tcp
  -  name: hkispvmess(gd)
     server: gyiepl.1aba.cn
     port: 50071
     type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 65
+    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
+    alterId: 76
     cipher: auto
     network: tcp
  -  name: hkispvmess(iepl)
     server: syiepl.fosi.hk
     port: 45212
     type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 65
+    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
+    alterId: 76
     cipher: auto
     network: tcp
  -  name: tw2twge.tkvmess
@@ -407,21 +407,8 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f17c8398"
- -  name: jp2dwzz.gavmess-grpc(中转)*
-    server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 56786
-    type: vmess
-    uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f17c8398"
  -  name: jp3sgaz.gavmess-grpc
-    server: 18.183.57.183
+    server: 18.183.249.49
     port: 443
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
@@ -432,7 +419,7 @@ proxies:
     servername: sgaz.cf
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "b357b3f2"
+      grpc-service-name: "b080e685"
  -  name: jp3sgaz.gavmess-grpc(aws)
     server: awsbj01.1aba.cn
     port: 57894
@@ -445,7 +432,7 @@ proxies:
     servername: sgaz.cf
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "b357b3f2"
+      grpc-service-name: "b080e685"
  - 
     name: krmyda.cfvmess-grpc
     server: 20.196.198.12
@@ -1490,7 +1477,6 @@ proxy-groups:
     - jp2dwzz.gavmess-grpc
     - jp2dwzz.gavmess-grpc(aws)
     - jp2dwzz.gavmess-grpc(sl)
-    - jp2dwzz.gavmess-grpc(中转)*
     - jp3sgaz.gavmess-grpc
     - jp3sgaz.gavmess-grpc(aws)
     - krmyda.cfvmess-grpc
