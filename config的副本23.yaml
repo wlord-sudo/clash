@@ -1034,6 +1034,19 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f6688538"
+ -  name: qa.airs.eu.orgvmess-grpc
+    server: 20.21.120.33
+    port: 443
+    type: vmess
+    uuid: d48b7bb5-7f7c-4a34-b471-dc16b0ad7ef2
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: dbbd.ga
+    ## skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "a150bda7"
  -  name: nyaz.mlvmess-grpc
     server: 20.251.9.244
     port: 443
