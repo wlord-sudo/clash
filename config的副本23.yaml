@@ -238,6 +238,27 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
+ -  name: hpshowsocks
+    type: ss
+    server: 180.232.110.126
+    port: 20123
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
+ -  name: hpshowsocks(iepl)
+    type: ss
+    server: syiepl.fosi.hk
+    port: 50893
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
+ -  name: hpshowsocks(gd)
+    type: ss
+    server: azbj01.1aba.cn
+    port: 38364
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
  -  name: sgwads.gavmess-grpc
     server: 13.212.53.64
     port: 443
@@ -1126,7 +1147,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
  -  name: ititaws.mlvmess-grpc
-    server: 15.161.59.253
+    server: 15.161.104.184
     port: 443
     type: vmess
     uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
@@ -1464,6 +1485,9 @@ proxy-groups:
     - myvmess
     - myvmess(iepl)
     - myvmess(gd)
+    - hpshowsocks
+    - hpshowsocks(gd)
+    - hpshowsocks(iepl)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
