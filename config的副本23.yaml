@@ -168,13 +168,12 @@ proxies:
     cipher: auto
     network: tcp
  -  name: tw2twge.tkvmess
+    type: ss
     server: tw1.fastyun.cc
-    port: 20045
-    type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 0
-    cipher: auto
-    network: tcp
+    port: 9123
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
  -  name: tw2twge.tkvmess(iepl)
     server: syiepl.fosi.hk
     port: 40743
@@ -241,7 +240,7 @@ proxies:
  -  name: hpshowsocks
     type: ss
     server: 180.232.110.126
-    port: 20123
+    port: 9123
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
