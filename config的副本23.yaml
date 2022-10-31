@@ -170,25 +170,24 @@ proxies:
  -  name: tw2twge.tkvmess
     type: ss
     server: tw1.fastyun.cc
-    port: 9123
+    port: 20341
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
  -  name: tw2twge.tkvmess(iepl)
     server: syiepl.fosi.hk
+    type: ss
     port: 40743
-    type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 0
-    cipher: auto
-    network: tcp
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
  -  name: tw2twge.tkvmess(gd)
     server: gddx.fosi.hk
     port: 62244
-    type: vmess
-    uuid: 821cc163-8f61-4c83-ae73-41ad4bb49a12
-    alterId: 0
-    cipher: auto
+    type: ss
+    cipher: aes-256-cfb
+    password: "wangzhe123"
+    udp: true
  -  name: tw1twge.tkvmess
     server: tw1.gofun.gay
     port: 10810
