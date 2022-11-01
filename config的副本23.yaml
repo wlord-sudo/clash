@@ -236,6 +236,22 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
+ -  name: vnmesss
+    server: 103.164.138.164
+    port: 9782
+    type: vmess
+    uuid: 60df9633-a3ce-4e48-bc07-13162ea07303
+    alterId: 76
+    cipher: auto
+    network: tcp
+ -  name: vnmesss(gd)
+    server: azbj01.1aba.cn
+    port: 15971
+    type: vmess
+    uuid: 60df9633-a3ce-4e48-bc07-13162ea07303
+    alterId: 76
+    cipher: auto
+    network: tcp
  -  name: hpshowsocks
     type: ss
     server: 180.232.110.126
@@ -1483,6 +1499,8 @@ proxy-groups:
     - myvmess
     - myvmess(iepl)
     - myvmess(gd)
+    - vnmesss
+    - vnmesss(gd)
     - hpshowsocks
     - hpshowsocks(gd)
     - hpshowsocks(iepl)
