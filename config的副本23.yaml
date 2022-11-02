@@ -189,27 +189,27 @@ proxies:
     password: "wangzhe123"
     udp: true
  -  name: tw1twge.tkvmess
-    server: tw1.gofun.gay
-    port: 10810
+    server: tw.airs.eu.org
+    port: 10158
     type: vmess
-    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
-    alterId: 79
+    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
+    alterId: 62
     cipher: auto
     network: tcp
  -  name: tw1twge.tkvmess(gd)
     server: gddx.fosi.hk
     port: 25985
     type: vmess
-    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
-    alterId: 79
+    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
+    alterId: 62
     cipher: auto
     network: tcp
  -  name: tw1twge.tkvmess(iepl)
     server: syiepl.fosi.hk
     port: 47830
     type: vmess
-    uuid: fee576c3-c559-42f4-a7a5-13e08ba6471b
-    alterId: 79
+    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
+    alterId: 62
     cipher: auto
     network: tcp
  -  name: myvmess
