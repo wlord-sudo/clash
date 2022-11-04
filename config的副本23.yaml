@@ -190,7 +190,7 @@ proxies:
     cipher: auto
     network: tcp
  -  name: myvmess
-    server: 1.hkust.eu.org
+    server: ml.hkust.eu.org
     port: 10009
     type: vmess
     uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
@@ -636,6 +636,15 @@ proxies:
     cipher: auto
     network: tcp
  - 
+    name: us3median(sl)
+    server: shcu2.1aba.cn
+    port: 37610
+    type: vmess
+    uuid: e58e9be7-e8ac-42c5-bea1-2035510765e9
+    alterId: 51
+    cipher: auto
+    network: tcp
+ - 
     name: audegx.gavmess-grpc
     server: 52.62.231.219
     port: 443
@@ -1012,6 +1021,19 @@ proxies:
  -  name: qa.airs.eu.orgvmess-grpc
     server: 20.21.120.33
     port: 443
+    type: vmess
+    uuid: d48b7bb5-7f7c-4a34-b471-dc16b0ad7ef2
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: qa.airs.eu.org
+    ## skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "a150bda7"
+ -  name: qa.airs.eu.orgvmess-grpc(gd)
+    server: azsh01.1aba.cn
+    port: 55228
     type: vmess
     uuid: d48b7bb5-7f7c-4a34-b471-dc16b0ad7ef2
     alterId: 0
@@ -1469,6 +1491,7 @@ proxy-groups:
     - us2usaz.cfvmess-grpc(sl)
     - us2usaz.cfvmess-grpc(aws)
     - us3median
+    - us3median(sl)
     - audegx.gavmess-grpc
     - audegx.gavmess-grpc(aws)
     - audegx.gavmess-grpc(gy)
