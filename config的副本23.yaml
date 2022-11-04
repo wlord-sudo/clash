@@ -47,7 +47,7 @@ proxies:
       grpc-service-name: "0d0e68b1"
  - 
     name: hk1dawz.cfvmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 42802
     type: vmess
     uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
@@ -89,7 +89,7 @@ proxies:
       grpc-service-name: "ff7ad5ef"
  - 
     name: hk2degas.gavmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 48531
     type: vmess
     uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
@@ -144,40 +144,25 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
  -  name: hkispvmess
-    server: 2.hkust.eu.org
-    port: 23901
+    server: 3.hkust.eu.org
+    port: 10231
     type: vmess
-    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
-    alterId: 76
+    uuid: dfbdfd6a-6dbb-422a-a888-e70d969bc8f8
+    alterId: 55
     cipher: auto
     network: tcp
  -  name: hkispvmess(gd)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 50071
     type: vmess
-    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
-    alterId: 76
-    cipher: auto
-    network: tcp
- -  name: hkispvmess(iepl)
-    server: syiepl.fosi.hk
-    port: 45212
-    type: vmess
-    uuid: f563b9c3-6d0d-4905-b080-35e7dea85d58
-    alterId: 76
+    uuid: dfbdfd6a-6dbb-422a-a888-e70d969bc8f8
+    alterId: 55
     cipher: auto
     network: tcp
  -  name: tw2twge.tkvmess
     type: ss
     server: tw1.fastyun.cc
     port: 20341
-    cipher: aes-256-cfb
-    password: "wangzhe123"
-    udp: true
- -  name: tw2twge.tkvmess(iepl)
-    server: syiepl.fosi.hk
-    type: ss
-    port: 40743
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
@@ -204,14 +189,6 @@ proxies:
     alterId: 62
     cipher: auto
     network: tcp
- -  name: tw1twge.tkvmess(iepl)
-    server: syiepl.fosi.hk
-    port: 47830
-    type: vmess
-    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
-    alterId: 62
-    cipher: auto
-    network: tcp
  -  name: myvmess
     server: 1.hkust.eu.org
     port: 10009
@@ -220,16 +197,8 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
- -  name: myvmess(iepl)
-    server: syiepl.fosi.hk
-    port: 35051
-    type: vmess
-    uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
-    alterId: 50
-    cipher: auto
-    network: tcp
  -  name: myvmess(gd)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 35566
     type: vmess
     uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
@@ -259,13 +228,6 @@ proxies:
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
- -  name: hpshowsocks(iepl)
-    type: ss
-    server: syiepl.fosi.hk
-    port: 50893
-    cipher: aes-256-cfb
-    password: "wangzhe123"
-    udp: true
  -  name: hpshowsocks(gd)
     type: ss
     server: azbj01.1aba.cn
@@ -287,7 +249,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "cbed1f26"
  -  name: sgwads.gavmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 31512
     type: vmess
     uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
@@ -365,7 +327,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp1wxpx.gavmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 56532
     type: vmess
     uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
@@ -417,7 +379,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f17c8398"
  -  name: jp2dwzz.gavmess-grpc(aws)
-    server: awsbj01.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 23359
     type: vmess
     uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
@@ -456,7 +418,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "b080e685"
  -  name: jp3sgaz.gavmess-grpc(aws)
-    server: awsbj01.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 57894
     type: vmess
     uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
@@ -484,7 +446,7 @@ proxies:
       grpc-service-name: "b358c3ed"
  - 
     name: krmyda.cfvmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 31508
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
@@ -596,7 +558,7 @@ proxies:
       grpc-service-name: "ff2161c8"
  - 
     name: uswg66.ml.cfvmess-grpc(aws)
-    server: awsbj01.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 29305
     type: vmess
     uuid: 0f2bb0f9-d0a7-4618-adc0-e8cb79973fba
@@ -652,7 +614,7 @@ proxies:
       grpc-service-name: "7236c6b3"
  - 
     name: us2usaz.cfvmess-grpc(aws)
-    server: awsbj01.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 14862
     type: vmess
     uuid: af4d4786-63d3-4dd4-9979-590b118bce95
@@ -668,15 +630,6 @@ proxies:
     name: us3median
     server: 66.181.33.108
     port: 20345
-    type: vmess
-    uuid: e58e9be7-e8ac-42c5-bea1-2035510765e9
-    alterId: 51
-    cipher: auto
-    network: tcp
- - 
-    name: us3median(iepl)
-    server: syiepl.fosi.hk
-    port: 13984
     type: vmess
     uuid: e58e9be7-e8ac-42c5-bea1-2035510765e9
     alterId: 51
@@ -796,7 +749,7 @@ proxies:
       grpc-service-name: "299f9d86"
  - 
     name: bxbxaz.tk.vmess-grpc(aws)
-    server: awsbj01.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 17022
     type: vmess
     uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
@@ -1069,19 +1022,6 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "a150bda7"
- -  name: qa.airs.eu.orgvmess-grpc(iepl)
-    server: syiepl.fosi.hk
-    port: 52457
-    type: vmess
-    uuid: d48b7bb5-7f7c-4a34-b471-dc16b0ad7ef2
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: qa.airs.eu.org
-    ## skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "a150bda7"
  -  name: nyaz.mlvmess-grpc
     server: 20.251.9.244
     port: 443
@@ -1213,7 +1153,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "913e3a4e"
  -  name: iriraz.mlvmess-grpc(hn)
-    server: gyiepl.1aba.cn
+    server: gddxc.fosi.hk
     port: 43882
     type: vmess
     uuid: 5e581054-b8c2-4208-99d0-6e36ee7c619a
@@ -1252,7 +1192,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "fc8d2920"
  -  name: cacaaz.mlvmess-grpc(sl)
-    server: shcu.1aba.cn
+    server: cn.hncu.1aba.cn
     port: 35617
     type: vmess
     uuid: debb07db-e28f-4e50-8b42-ab8839bcfffb
@@ -1489,21 +1429,16 @@ proxy-groups:
     - hk2degas.gavmess-grpc(gy)
     - hkispvmess
     - hkispvmess(gd)
-    - hkispvmess(iepl)
     - tw2twge.tkvmess
     - tw2twge.tkvmess(gd)
-    - tw2twge.tkvmess(iepl)
     - tw1twge.tkvmess
     - tw1twge.tkvmess(gd)
-    - tw1twge.tkvmess(iepl)
     - myvmess
-    - myvmess(iepl)
     - myvmess(gd)
     - vnmesss
     - vnmesss(gd)
     - hpshowsocks
     - hpshowsocks(gd)
-    - hpshowsocks(iepl)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
@@ -1534,7 +1469,6 @@ proxy-groups:
     - us2usaz.cfvmess-grpc(sl)
     - us2usaz.cfvmess-grpc(aws)
     - us3median
-    - us3median(iepl)
     - audegx.gavmess-grpc
     - audegx.gavmess-grpc(aws)
     - audegx.gavmess-grpc(gy)
@@ -1564,7 +1498,6 @@ proxy-groups:
     - dbdbbd.gavmess-grpc(aws)
     - dbdbbd.gavmess-grpc（hn)
     - qa.airs.eu.orgvmess-grpc
-    - qa.airs.eu.orgvmess-grpc(iepl)
     - nyaz.mlvmess-grpc
     - nynyaz.mlvmess-grpc(aws)
     - nynyaz.mlvmess-grpc（hn）
