@@ -366,44 +366,29 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp2dwzz.gavmess-grpc
-    server: 13.208.187.22
+    server: 13.208.175.225
     port: 443
     type: vmess
-    uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
-    alterId: 0
+    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
+    alterId: 62
     cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f17c8398"
+    network: tcp
  -  name: jp2dwzz.gavmess-grpc(aws)
     server: cn.hncu.1aba.cn
     port: 23359
     type: vmess
-    uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
-    alterId: 0
+    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
+    alterId: 62
     cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f17c8398"
+    network: tcp
  -  name: jp2dwzz.gavmess-grpc(sl)
     server: shcu.1aba.cn
     port: 30089
     type: vmess
-    uuid: 59bda1ee-4879-4171-81d4-ade58f85c40a
-    alterId: 0
+    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
+    alterId: 62
     cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f17c8398"
+    network: tcp
  -  name: jp3sgaz.gavmess-grpc
     server: 18.183.249.49
     port: 443
@@ -1123,44 +1108,29 @@ proxies:
     grpc-opts:
       grpc-service-name: "4017e048"
  -  name: ititaws.mlvmess-grpc
-    server: 15.161.104.184
+    server: 15.160.161.180
     port: 443
     type: vmess
-    uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
-    alterId: 0
+    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
+    alterId: 56
     cipher: auto
-    network: grpc
-    tls: true
-    servername: itaws.ml
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "31004508"
+    network: tcp
  -  name: ititaws.mlvmess-grpc(aws)
     server: awsbj01.1aba.cn
     port: 21835
     type: vmess
-    uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
-    alterId: 0
+    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
+    alterId: 56
     cipher: auto
-    network: grpc
-    tls: true
-    servername: itaws.ml
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "31004508"
+    network: tcp
  -  name: ititaws.mlvmess-grpc(gy)
     server: azsh01.1aba.cn
     port: 47903
     type: vmess
-    uuid: f9898cd7-d5a4-4d89-b6d4-ee9bf69b52e8
-    alterId: 0
+    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
+    alterId: 56
     cipher: auto
-    network: grpc
-    tls: true
-    servername: itaws.ml
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "31004508"
+    network: tcp
  -  name: iriraz.mlvmess-grpc
     server: 34.245.24.241
     port: 443
