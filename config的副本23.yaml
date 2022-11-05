@@ -274,6 +274,22 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "cbed1f26"
+ -  name: sg2
+    server: 18.143.164.33
+    port: 59514
+    type: vmess
+    uuid: 88b9f5d3-2a4c-4c5b-f45e-1b27e2810959
+    alterId: 0
+    cipher: auto
+    network: tcp
+ -  name: sg2(gd)
+    server: gyiepl.1aba.cn
+    port: 10752
+    type: vmess
+    uuid: 88b9f5d3-2a4c-4c5b-f45e-1b27e2810959
+    alterId: 0
+    cipher: auto
+    network: tcp
  -  name: idindogo.gavmess-grpc
     server: 108.136.186.128
     port: 443
@@ -1226,6 +1242,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fc8d2920"
+ -  name: ca2caaz.mlvmess-grpc
+    server: 20.104.121.149
+    port: 443
+    type: vmess
+    uuid: 5860bfa1-c1e7-4cac-bbf9-0a965f3bba57
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ca.hkust.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0590acf2"
+ -  name: ca2caaz.mlvmess-grpc(sl)
+    server: shcu.1aba.cn
+    port: 42932
+    type: vmess
+    uuid: 5860bfa1-c1e7-4cac-bbf9-0a965f3bba57
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: ca.hkust.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0590acf2"
  -  name: nlnlgp.tkvmess-grpc
     server: 168.63.124.230
     port: 443
@@ -1268,19 +1310,6 @@ proxies:
  -  name: bebegp.mlvmess-grpc（gy) 
     server: fsyy.fosi.hk
     port: 28703
-    type: vmess
-    uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: begp.ml
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0c6ea2ee"
- -  name: bebegp.mlvmess-grpc（中转）*
-    server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 23526
     type: vmess
     uuid: 3d63a5a0-072b-4420-8177-9a0f56463f12
     alterId: 0
@@ -1421,19 +1450,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff2c93fe"
- -  name: zlzlgp.gqvmess-grpc（中转）*
-    server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 46475
-    type: vmess
-    uuid: d2fe1b28-0db1-46e8-94ae-0f3ff27cf4cc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: zlgp.gq
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "ff2c93fe"
 proxy-groups:
 - name: proxy
   type: select
@@ -1464,6 +1480,8 @@ proxy-groups:
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
+    - sg2
+    - sg2(gd)
     - idindogo.gavmess-grpc
     - idindogo.gavmess-grpc(hn)
     - idindogo.gavmess-grpc(gd)
@@ -1535,11 +1553,12 @@ proxy-groups:
     - iriraz.mlvmess-grpc(aws)
     - cacaaz.mlvmess-grpc
     - cacaaz.mlvmess-grpc(sl)
+    - ca2caaz.mlvmess-grpc
+    - ca2caaz.mlvmess-grpc(sl)
     - nlnlgp.tkvmess-grpc
     - nlnlgp.tkvmess-grpc(gy)
     - bebegp.mlvmess-grpc
     - bebegp.mlvmess-grpc（gy)
-    - bebegp.mlvmess-grpc（中转）*
     - rdrdaws.gavmess-grpc
     - rdrdaws.gavmess-grpc(aws)
     - rdrdaws.gavmess-grpc(gy)
@@ -1550,7 +1569,6 @@ proxy-groups:
     - blzlgcp.mlvmess-grpc(gy)
     - zlzlgp.gqvmess-grpc
     - zlzlgp.gqvmess-grpc(gy)
-    - zlzlgp.gqvmess-grpc（中转）*
 rules:
  - GEOIP,CN,DIRECT
  - MATCH,proxy
