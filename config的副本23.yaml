@@ -366,39 +366,54 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp2dwzz.gavmess-grpc
-    server: 13.208.175.225
+    server: dwzz.ga
     port: 443
     type: vmess
-    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
-    alterId: 62
-    cipher: auto
-    network: tcp
- -  name: jp2dwzz.gavmess-grpc(aws)
-    server: cn.hncu.1aba.cn
-    port: 23359
-    type: vmess
-    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
-    alterId: 62
-    cipher: auto
-    network: tcp
- -  name: jp2dwzz.gavmess-grpc(sl)
-    server: shcu.1aba.cn
-    port: 30089
-    type: vmess
-    uuid: bdb358fe-a3f9-4e62-8907-226bf557dce1
-    alterId: 62
-    cipher: auto
-    network: tcp
- -  name: jp3sgaz.gavmess-grpc
-    server: 18.183.249.49
-    port: 443
-    type: vmess
-    uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
+    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: sgaz.cf
+    servername: dwzz.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "f97ecf74"
+ -  name: jp2dwzz.gavmess-grpc(aws)
+    server: cn.hncu.1aba.cn
+    port: 23359
+    type: vmess
+    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: dwzz.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "f97ecf74"
+ -  name: jp2dwzz.gavmess-grpc(sl)
+    server: shcu.1aba.cn
+    port: 30089
+    type: vmess
+    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: dwzz.ga
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "f97ecf74"
+ -  name: jp3sgaz.gavmess-grpc
+    server: 35.78.236.70
+    port: 443
+    type: vmess
+    uuid: ff689118-d699-45f6-825f-eba664f603a2
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: jp3.airs.eu.org
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b080e685"
@@ -406,12 +421,12 @@ proxies:
     server: cn.hncu.1aba.cn
     port: 57894
     type: vmess
-    uuid: fe9fc954-6d9b-48b8-afe0-f4d5f3cb22ce
+    uuid: ff689118-d699-45f6-825f-eba664f603a2
     alterId: 0
     cipher: auto
     network: grpc
     tls: true
-    servername: sgaz.cf
+    servername: jp3.airs.eu.org
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b080e685"
@@ -701,10 +716,10 @@ proxies:
       grpc-service-name: "99993bf2"
  - 
     name: bxbr.gofun.gay.vmess-grpc
-    server: 54.232.57.51
+    server: 20.226.14.198
     port: 443
     type: vmess
-    uuid: cb0d922c-70bf-484e-b2d9-771c0109b4c3
+    uuid: a01cbc2b-b2e5-4470-ac6a-b4edcc17c3b4
     alterId: 0
     cipher: auto
     network: grpc
@@ -712,13 +727,13 @@ proxies:
     servername: br.gofun.gay
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "418c6735"
+      grpc-service-name: "aa8ddf79"
  - 
     name: bxbr.gofun.gay.vmess-grpc(sl)
     server: shcu2.1aba.cn
     port: 54379
     type: vmess
-    uuid: cb0d922c-70bf-484e-b2d9-771c0109b4c3
+    uuid: a01cbc2b-b2e5-4470-ac6a-b4edcc17c3b4
     alterId: 0
     cipher: auto
     network: grpc
@@ -726,7 +741,7 @@ proxies:
     servername: br.gofun.gay
     # skip-cert-verify: true
     grpc-opts:
-      grpc-service-name: "418c6735"
+      grpc-service-name: "aa8ddf79"
  - 
     name: bxbxaz.tk.vmess-grpc
     server: 20.226.9.212
@@ -1111,26 +1126,41 @@ proxies:
     server: 15.160.161.180
     port: 443
     type: vmess
-    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
-    alterId: 56
+    uuid: ec1bdc93-1ce9-4710-855a-23953e7c8e9c
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: grpc
+    tls: true
+    servername: itaws.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "02295b54"
  -  name: ititaws.mlvmess-grpc(aws)
     server: awsbj01.1aba.cn
     port: 21835
     type: vmess
-    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
-    alterId: 56
+    uuid: ec1bdc93-1ce9-4710-855a-23953e7c8e9c
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: grpc
+    tls: true
+    servername: itaws.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "02295b54"
  -  name: ititaws.mlvmess-grpc(gy)
     server: azsh01.1aba.cn
     port: 47903
     type: vmess
-    uuid: 96b41553-9b7c-49a4-ac04-85063b94ea31
-    alterId: 56
+    uuid: ec1bdc93-1ce9-4710-855a-23953e7c8e9c
+    alterId: 0
     cipher: auto
-    network: tcp
+    network: grpc
+    tls: true
+    servername: itaws.ml
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "02295b54"
  -  name: iriraz.mlvmess-grpc
     server: 34.245.24.241
     port: 443
