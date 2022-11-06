@@ -129,20 +129,6 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- - 
-    name: hk2degas.gavmess-grpc(gy)
-    server: ydgy.fosi.hk
-    port: 46944
-    type: vmess
-    uuid: 5b3d5bd7-6908-4503-802c-bf1869ba5a8d
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: degas.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "ff7ad5ef"
  -  name: hkispvmess
     server: 3.hkust.eu.org
     port: 10231
@@ -395,7 +381,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "f97ecf74"
  -  name: jp2dwzz.gavmess-grpc(aws)
-    server: cn.hncu.1aba.cn
+    server: shcu.1aba.cn
     port: 23359
     type: vmess
     uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
@@ -423,6 +409,19 @@ proxies:
  -  name: jp3sgaz.gavmess-grpc
     server: 35.78.236.70
     port: 443
+    type: vmess
+    uuid: ff689118-d699-45f6-825f-eba664f603a2
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: jp3.airs.eu.org
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "b080e685"
+ -  name: jp3sgaz.gavmess-grpc(sl)
+    server: shcu2.1aba.cn
+    port: 23359
     type: vmess
     uuid: ff689118-d699-45f6-825f-eba664f603a2
     alterId: 0
@@ -489,8 +488,8 @@ proxies:
     grpc-opts:
       grpc-service-name: "b358c3ed"
  - 
-    name: krmyda.cfvmess-grpc(azsh)
-    server: azbj01.1aba.cn
+    name: krmyda.cfvmess-grpc(hn2)
+    server: azsh01.1aba.cn
     port: 57958
     type: vmess
     uuid: f00fbde8-ec3b-4e33-878d-5d8e30e0c7e7
@@ -520,6 +519,20 @@ proxies:
     name: ininda.cfvmess-grpc
     server: 20.41.230.99
     port: 443
+    type: vmess
+    uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: inda.cf
+    ## skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "0c48bd07"
+ - 
+    name: ininda.cfvmess-grpc(gd)
+    server: gyiepl.1aba.cn
+    port: 24147
     type: vmess
     uuid: 52b5bfc5-d38e-4245-8029-06bf0a9fe61c
     alterId: 0
@@ -675,6 +688,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "c7a2b06f"
  - 
+    name: audegx.gavmess-grpc(gd)
+    server: gyiepl.1aba.cn
+    port: 28203
+    type: vmess
+    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: degx.ga
+    ## skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "c7a2b06f"
+ - 
     name: audegx.gavmess-grpc(aws)
     server: awsbj01.1aba.cn
     port: 26380
@@ -706,6 +733,20 @@ proxies:
     name: nfnfzz.gcf.cfvmess-grpc
     server: 20.87.42.254
     port: 443
+    type: vmess
+    uuid: d37a8999-4dda-427e-b543-5f5c164f8e1b
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nfzz.cf
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "99993bf2"
+ - 
+    name: nfnfzz.gcf.cfvmess-grpc(gd)
+    server: gddxd.fosi.hk
+    port: 36927
     type: vmess
     uuid: d37a8999-4dda-427e-b543-5f5c164f8e1b
     alterId: 0
@@ -773,6 +814,20 @@ proxies:
     grpc-opts:
       grpc-service-name: "299f9d86"
  - 
+    name: bxbxaz.tk.vmess-grpc(sl)
+    server: shcu.1aba.cn
+    port: 37296
+    type: vmess
+    uuid: f3a66899-29c3-45ce-b5e2-cb6bdb04f501
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: bxza.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "299f9d86"
+ - 
     name: bxbxaz.tk.vmess-grpc(aws)
     server: cn.hncu.1aba.cn
     port: 17022
@@ -803,6 +858,19 @@ proxies:
  -  name: frfraz.gqvmess-grpc
     server: 20.111.8.62
     port: 443
+    type: vmess
+    uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: fraz.gq
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "29d9c714"
+ -  name: frfraz.gqvmess-grpc(gd)
+    server: gddxd.fosi.hk
+    port: 54044
     type: vmess
     uuid: d1944ace-1a5f-4887-aeae-5f277176b66c
     alterId: 0
@@ -1047,7 +1115,7 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "a150bda7"
- -  name: qa.airs.eu.orgvmess-grpc(gd)
+ -  name: qa.airs.eu.orgvmess-grpc(hn)
     server: azsh01.1aba.cn
     port: 55228
     type: vmess
@@ -1164,7 +1232,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "02295b54"
- -  name: ititaws.mlvmess-grpc(gy)
+ -  name: ititaws.mlvmess-grpc(hn)
     server: azsh01.1aba.cn
     port: 47903
     type: vmess
@@ -1281,6 +1349,19 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "d07f96c9"
+ -  name: nlnlgp.tkvmess-grpc(gd)
+    server: gddxd.fosi.hk
+    port: 11326
+    type: vmess
+    uuid: 3ac056e7-3ab7-42ca-a58f-0c0c3b1020e4
+    alterId: 0
+    cipher: auto
+    network: grpc
+    tls: true
+    servername: nlgp.tk
+    # skip-cert-verify: true
+    grpc-opts:
+      grpc-service-name: "d07f96c9"
  -  name: nlnlgp.tkvmess-grpc(gy)
     server: ydgy.fosi.hk
     port: 39415
@@ -1346,7 +1427,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "e1dff6f9"
- -  name: rdrdaws.gavmess-grpc(gy)
+ -  name: rdrdaws.gavmess-grpc(hn)
     server: azsh01.1aba.cn
     port: 47578
     type: vmess
@@ -1411,7 +1492,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "fbe21e4d"
- -  name: blzlgcp.mlvmess-grpc(gy)
+ -  name: blzlgcp.mlvmess-grpc(hn)
     server: azsh01.1aba.cn
     port: 51716
     type: vmess
@@ -1463,8 +1544,7 @@ proxy-groups:
     - hk2degas.gavmess-grpc
     - hk2degas.gavmess-grpc(hn)
     - hk2degas.gavmess-grpc(gd)
-    - hk2degas.gavmess-grpc(azsh)
-    - hk2degas.gavmess-grpc(gy)
+    - hk2degas.gavmess-grpc(hn)
     - hkispvmess
     - hkispvmess(gd)
     - tw2twge.tkvmess
@@ -1493,13 +1573,15 @@ proxy-groups:
     - jp2dwzz.gavmess-grpc(aws)
     - jp2dwzz.gavmess-grpc(sl)
     - jp3sgaz.gavmess-grpc
+    - jp3sgaz.gavmess-grpc(sl)
     - jp3sgaz.gavmess-grpc(aws)
     - krmyda.cfvmess-grpc
     - krmyda.cfvmess-grpc(hn)
     - krmyda.cfvmess-grpc(gd)
-    - krmyda.cfvmess-grpc(azsh)
+    - krmyda.cfvmess-grpc(hn2)
     - krmyda.cfvmess-grpc(gy)
     - ininda.cfvmess-grpc
+    - ininda.cfvmess-grpc(gd)
     - ininda.cfvmess-grpc(gy)
     - ininda.cfvmess-grpc(aws)
     - uswg66.ml.cfvmess-grpc
@@ -1511,17 +1593,21 @@ proxy-groups:
     - us3median
     - us3median(sl)
     - audegx.gavmess-grpc
+    - audegx.gavmess-grpc(gd)
     - audegx.gavmess-grpc(aws)
     - audegx.gavmess-grpc(gy)
     - nfnfzz.gcf.cfvmess-grpc
+    - nfnfzz.gcf.cfvmess-grpc(gd)
     - nfnfzz.gcf.cfvmess-grpc(aws)
     - bxbr.gofun.gay.vmess-grpc
     - bxbr.gofun.gay.vmess-grpc(sl)
     - bxbxaz.tk.vmess-grpc
+    - bxbxaz.tk.vmess-grpc(sl)
     - bxbxaz.tk.vmess-grpc(aws)
     - bxbxaz.tk.vmess-grpc（中转）*
     - frfraz.gqvmess-grpc
     - frfraz.gqvmess-grpc(aws)
+    - frfraz.gqvmess-grpc(gd)
     - frfraz.gqvmess-grpc（gy）
     - swsend.mlvmess-grpc
     - swsend.mlvmess-grpc（aws）
@@ -1539,6 +1625,7 @@ proxy-groups:
     - dbdbbd.gavmess-grpc(aws)
     - dbdbbd.gavmess-grpc（hn)
     - qa.airs.eu.orgvmess-grpc
+    - qa.airs.eu.orgvmess-grpc(hn)
     - nyaz.mlvmess-grpc
     - nynyaz.mlvmess-grpc(aws)
     - nynyaz.mlvmess-grpc（hn）
@@ -1547,7 +1634,7 @@ proxy-groups:
     - ukukaz.tkvmess-grpc(hn)
     - ititaws.mlvmess-grpc
     - ititaws.mlvmess-grpc(aws)
-    - ititaws.mlvmess-grpc(gy)
+    - ititaws.mlvmess-grpc(hn)
     - iriraz.mlvmess-grpc
     - iriraz.mlvmess-grpc(hn)
     - iriraz.mlvmess-grpc(aws)
@@ -1556,17 +1643,18 @@ proxy-groups:
     - ca2caaz.mlvmess-grpc
     - ca2caaz.mlvmess-grpc(sl)
     - nlnlgp.tkvmess-grpc
+    - nlnlgp.tkvmess-grpc(gd)
     - nlnlgp.tkvmess-grpc(gy)
     - bebegp.mlvmess-grpc
     - bebegp.mlvmess-grpc（gy)
     - rdrdaws.gavmess-grpc
     - rdrdaws.gavmess-grpc(aws)
-    - rdrdaws.gavmess-grpc(gy)
+    - rdrdaws.gavmess-grpc(hn)
     - flflgcp.gqvmess-grpc
     - flflgcp.gqvmess-grpc(hy)
     - blzlgcp.mlvmess-grpc
     - blzlgcp.mlvmess-grpc(aws)
-    - blzlgcp.mlvmess-grpc(gy)
+    - blzlgcp.mlvmess-grpc(hn)
     - zlzlgp.gqvmess-grpc
     - zlzlgp.gqvmess-grpc(gy)
 rules:
