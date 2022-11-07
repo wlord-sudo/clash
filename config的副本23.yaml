@@ -191,34 +191,34 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
- -  name: vnmesss
-    server: 103.164.138.164
+ -  name: khmesss
+    server: 220.158.233.71
     port: 9782
     type: vmess
-    uuid: 60df9633-a3ce-4e48-bc07-13162ea07303
-    alterId: 76
+    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
+    alterId: 52
     cipher: auto
     network: tcp
- -  name: vnmesss(gd)
+ -  name: khmesss(gd)
     server: azbj01.1aba.cn
     port: 15971
     type: vmess
-    uuid: 60df9633-a3ce-4e48-bc07-13162ea07303
-    alterId: 76
+    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
+    alterId: 52
     cipher: auto
     network: tcp
  -  name: hpshowsocks
     type: ss
-    server: 180.232.110.126
+    server: 180.232.110.221
     port: 9123
-    cipher: aes-256-cfb
+    cipher: aes-256-gcm
     password: "wangzhe123"
     udp: true
  -  name: hpshowsocks(gd)
     type: ss
     server: azbj01.1aba.cn
     port: 38364
-    cipher: aes-256-cfb
+    cipher: aes-256-gcm
     password: "wangzhe123"
     udp: true
  -  name: sgwads.gavmess-grpc
@@ -1553,8 +1553,8 @@ proxy-groups:
     - tw1twge.tkvmess(gd)
     - myvmess
     - myvmess(gd)
-    - vnmesss
-    - vnmesss(gd)
+    - khmesss
+    - khmesss(gd)
     - hpshowsocks
     - hpshowsocks(gd)
     - sgwads.gavmess-grpc
