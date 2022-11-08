@@ -496,31 +496,30 @@ proxies:
  -  name: jp3sgaz.gatorjan-grpc(sl)
     server: shcu2.1aba.cn
     port: 23359
-    type: vmess
-    uuid: ff689118-d699-45f6-825f-eba664f603a2
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "aIpXTbEn3L"
     network: grpc
-    tls: true
-    servername: jp3.airs.eu.org
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "b080e685"
- -  name: jp3sgaz.gavmess-grpc(aws)
+      grpc-service-name: "hello"
+ -  name: jp3sgaz.gatorjan-grpc(aws)
     server: cn.hncu.1aba.cn
     port: 57894
-    type: vmess
-    uuid: ff689118-d699-45f6-825f-eba664f603a2
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "aIpXTbEn3L"
     network: grpc
-    tls: true
-    servername: jp3.airs.eu.org
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "b080e685"
- - 
-    name: krmyda.cfvmess-grpc
+      grpc-service-name: "hello"
+ -  name: krmyda.cfvmess-grpc
     server: 20.196.198.12
     port: 443
     type: vmess
@@ -533,8 +532,7 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b358c3ed"
- - 
-    name: krmyda.cfvmess-grpc(hn)
+ -  name: krmyda.cfvmess-grpc(hn)
     server: gddxc.fosi.hk
     port: 31508
     type: vmess
@@ -1648,9 +1646,9 @@ proxy-groups:
     - jp2dwzz.gavmess-grpc
     - jp2dwzz.gavmess-grpc(aws)
     - jp2dwzz.gavmess-grpc(sl)
-    - jp3sgaz.gavmess-grpc
-    - jp3sgaz.gavmess-grpc(sl)
-    - jp3sgaz.gavmess-grpc(aws)
+    - jp3sgaz.gatorjan-grpc
+    - jp3sgaz.gatorjan-grpc(sl)
+    - jp3sgaz.gatorjan-grpc(aws)
     - krmyda.cfvmess-grpc
     - krmyda.cfvmess-grpc(hn)
     - krmyda.cfvmess-grpc(gd)
