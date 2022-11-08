@@ -169,31 +169,46 @@ proxies:
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
- -  name: tw1twge.tkvmess
+ -  name: tw1trojan-grpc
     server: tw.airs.eu.org
-    port: 10158
-    type: vmess
-    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
-    alterId: 62
-    cipher: auto
-    network: tcp
- -  name: tw1twge.tkvmess(gd)
+    port: 10371
+    type: trojan
+    password: "7u3DIYFsZl"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: tw1trojan-grpc(gd)
     server: gddx.fosi.hk
     port: 25985
-    type: vmess
-    uuid: 5dca3624-b99b-497b-aa3a-98bed044f8fc
-    alterId: 62
-    cipher: auto
-    network: tcp
- -  name: myvmess
+    type: trojan
+    password: "7u3DIYFsZl"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: mytrojan-grpc
     server: ml.hkust.eu.org
-    port: 10009
-    type: vmess
-    uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
-    alterId: 50
-    cipher: auto
-    network: tcp
- -  name: myvmess(gd)
+    port: 10132
+    type: trojan
+    password: "NzBnIdU7ae"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: mytrojan-grpc(gd)
     server: gddxc.fosi.hk
     port: 35566
     type: vmess
@@ -1603,10 +1618,10 @@ proxy-groups:
     - hkisptrojan-grpc(gd)
     - tw2twge.tkvmess
     - tw2twge.tkvmess(gd)
-    - tw1twge.tkvmess
-    - tw1twge.tkvmess(gd)
-    - myvmess
-    - myvmess(gd)
+    - tw1trojan-grpc
+    - tw1trojan-grpc(gd)
+    - mytrojan-grpc
+    - mytrojan-grpc(gd)
     - khtrojan-grpc
     - khtrojan-grpc(gd)
     - thtrojan-grpc
