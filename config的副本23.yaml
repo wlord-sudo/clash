@@ -350,45 +350,45 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
- -  name: idindogo.gavmess-grpc
-    server: 108.136.186.128
-    port: 443
-    type: vmess
-    uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
-    alterId: 0
-    cipher: auto
+ -  name: idindogo.gatrojan-grpc
+    server: 108.137.73.86
+    port: 31983
+    type: trojan
+    password: "JmgAbK8hQO"
     network: grpc
-    tls: true
-    servername: indogo.ga
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "4c894931"
- -  name: idindogo.gavmess-grpc(hn)
+      grpc-service-name: "hello"
+ -  name: idindogo.gatrojan-grpc(hn)
     server: azsh01.1aba.cn
     port: 37924
-    type: vmess
-    uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "JmgAbK8hQO"
     network: grpc
-    tls: true
-    servername: indogo.ga
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "4c894931"
- -  name: idindogo.gavmess-grpc(gd)
+      grpc-service-name: "hello"
+ -  name: idindogo.gatrojan-grpc(gd)
     server: gddx.fosi.hk
     port: 49699
-    type: vmess
-    uuid: 40ca7a54-def7-438a-98eb-df3a05fc1536
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "JmgAbK8hQO"
     network: grpc
-    tls: true
-    servername: indogo.ga
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "4c894931"
+      grpc-service-name: "hello"
  -  name: jp1wxpx.gavmess-grpc
     server: 13.230.188.211
     port: 443
@@ -1636,9 +1636,9 @@ proxy-groups:
     - sgwads.gavmess-grpc(gd)
     - sg2
     - sg2(gd)
-    - idindogo.gavmess-grpc
-    - idindogo.gavmess-grpc(hn)
-    - idindogo.gavmess-grpc(gd)
+    - idindogo.gatrojan-grpc
+    - idindogo.gatrojan-grpc(hn)
+    - idindogo.gatrojan-grpc(gd)
     - jp1wxpx.gavmess-grpc
     - jp1wxpx.gavmess-grpc(hn)
     - jp1wxpx.gavmess-grpc(gd)
