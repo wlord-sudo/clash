@@ -243,20 +243,28 @@ proxies:
     #udp: true
     grpc-opts:
       grpc-service-name: "hello"
- -  name: hpshowsocks
-    type: ss
+ -  name: hptrojan
     server: 180.232.110.221
-    port: 9123
-    cipher: aes-256-gcm
-    password: "wangzhe123"
-    udp: true
- -  name: hpshowsocks(gd)
-    type: ss
+    port: 46770
+    type: trojan
+    password: "hneGQbfT7u"
+    network: tcp
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+ -  name: hptrojan(gd)
     server: azbj01.1aba.cn
     port: 38364
-    cipher: aes-256-gcm
-    password: "wangzhe123"
-    udp: true
+    type: trojan
+    password: "hneGQbfT7u"
+    network: tcp
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
  -  name: sgwads.gavmess-grpc
     server: 13.212.53.64
     port: 443
@@ -1593,8 +1601,8 @@ proxy-groups:
     - khtrojan-grpc(gd)
     - thtrojan-grpc
     - thtrojan-grpc(gd)
-    - hpshowsocks
-    - hpshowsocks(gd)
+    - hptrojan
+    - hptrojan(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
