@@ -480,20 +480,20 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f97ecf74"
- -  name: jp3sgaz.gavmess-grpc
-    server: 35.78.236.70
-    port: 443
-    type: vmess
-    uuid: ff689118-d699-45f6-825f-eba664f603a2
-    alterId: 0
-    cipher: auto
+ -  name: jp3sgaz.gatorjan-grpc
+    server: 54.248.154.33
+    port: 46711
+    type: trojan
+    password: "aIpXTbEn3L"
     network: grpc
-    tls: true
-    servername: jp3.airs.eu.org
-    # skip-cert-verify: true
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
     grpc-opts:
-      grpc-service-name: "b080e685"
- -  name: jp3sgaz.gavmess-grpc(sl)
+      grpc-service-name: "hello"
+ -  name: jp3sgaz.gatorjan-grpc(sl)
     server: shcu2.1aba.cn
     port: 23359
     type: vmess
