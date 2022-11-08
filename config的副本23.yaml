@@ -129,22 +129,32 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- -  name: hkispvmess
+ -  name: hkisptrojan-grpc
     server: 3.hkust.eu.org
-    port: 10231
-    type: vmess
-    uuid: 968bd71b-a01e-4dd6-be18-686bde7ec2de
-    alterId: 64
-    cipher: auto
-    network: tcp
- -  name: hkispvmess(gd)
+    port: 10234
+    type: trojan
+    password: "HlGppG6muD"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: hkisptrojan-grpc(gd)
     server: gddxc.fosi.hk
     port: 50071
-    type: vmess
-    uuid: 968bd71b-a01e-4dd6-be18-686bde7ec2de
-    alterId: 64
-    cipher: auto
-    network: tcp
+    type: trojan
+    password: "HlGppG6muD"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
  -  name: tw2twge.tkvmess
     type: ss
     server: tw1.fastyun.cc
@@ -1589,8 +1599,8 @@ proxy-groups:
     - hk2degas.gavmess-grpc(hn)
     - hk2degas.gavmess-grpc(gd)
     - hk2degas.gavmess-grpc(hn)
-    - hkispvmess
-    - hkispvmess(gd)
+    - hkisptrojan-grpc
+    - hkisptrojan-grpc(gd)
     - tw2twge.tkvmess
     - tw2twge.tkvmess(gd)
     - tw1twge.tkvmess
