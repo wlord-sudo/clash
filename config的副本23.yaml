@@ -56,7 +56,7 @@ proxies:
     network: grpc
     tls: true
     servername: dawz.cf
-    # s# skip-cert-verify: trueg
+    # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "0d0e68b1"
  - 
@@ -197,6 +197,22 @@ proxies:
     type: vmess
     uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
     alterId: 52
+    cipher: auto
+    network: tcp
+ -  name: thmesss
+    server: 43.229.149.235
+    port: 9123
+    type: vmess
+    uuid: d8b799c3-a896-48b6-85c6-2a03a722bdec
+    alterId: 51
+    cipher: auto
+    network: tcp
+ -  name: thmesss(gd)
+    server: gddxd.fosi.hk
+    port: 54957
+    type: vmess
+    uuid: d8b799c3-a896-48b6-85c6-2a03a722bdec
+    alterId: 51
     cipher: auto
     network: tcp
  -  name: khmesss(gd)
@@ -1555,6 +1571,8 @@ proxy-groups:
     - myvmess(gd)
     - khmesss
     - khmesss(gd)
+    - thmesss
+    - thmesss(gd)
     - hpshowsocks
     - hpshowsocks(gd)
     - sgwads.gavmess-grpc
