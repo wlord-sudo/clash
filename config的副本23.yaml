@@ -191,38 +191,58 @@ proxies:
     alterId: 50
     cipher: auto
     network: tcp
- -  name: khmesss
+ -  name: khtrojan-grpc
     server: 220.158.233.71
-    port: 9782
-    type: vmess
-    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
-    alterId: 52
-    cipher: auto
-    network: tcp
- -  name: khmesss(gd)
+    port: 21941
+    type: trojan
+    password: "KM14d9bIWT"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: khtrojan-grpc(gd)
     server: azbj01.1aba.cn
     port: 15971
-    type: vmess
-    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
-    alterId: 52
-    cipher: auto
-    network: tcp
- -  name: thmesss
+    type: trojan
+    password: "KM14d9bIWT"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: thtrojan-grpc
     server: 43.229.149.235
-    port: 9123
-    type: vmess
-    uuid: d8b799c3-a896-48b6-85c6-2a03a722bdec
-    alterId: 51
-    cipher: auto
-    network: tcp
- -  name: thmesss(gd)
+    port: 10290
+    type: trojan
+    password: "FjZjUG4icl"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ -  name: thtrojan-grpc(gd)
     server: gddxd.fosi.hk
     port: 54957
-    type: vmess
-    uuid: d8b799c3-a896-48b6-85c6-2a03a722bdec
-    alterId: 51
-    cipher: auto
-    network: tcp
+    type: trojan
+    password: "FjZjUG4icl"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
  -  name: hpshowsocks
     type: ss
     server: 180.232.110.221
@@ -1569,10 +1589,10 @@ proxy-groups:
     - tw1twge.tkvmess(gd)
     - myvmess
     - myvmess(gd)
-    - khmesss
-    - khmesss(gd)
-    - thmesss
-    - thmesss(gd)
+    - khtrojan-grpc
+    - khtrojan-grpc(gd)
+    - thtrojan-grpc
+    - thtrojan-grpc(gd)
     - hpshowsocks
     - hpshowsocks(gd)
     - sgwads.gavmess-grpc
