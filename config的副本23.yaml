@@ -133,16 +133,16 @@ proxies:
     server: 3.hkust.eu.org
     port: 10231
     type: vmess
-    uuid: dfbdfd6a-6dbb-422a-a888-e70d969bc8f8
-    alterId: 55
+    uuid: 968bd71b-a01e-4dd6-be18-686bde7ec2de
+    alterId: 64
     cipher: auto
     network: tcp
  -  name: hkispvmess(gd)
     server: gddxc.fosi.hk
     port: 50071
     type: vmess
-    uuid: dfbdfd6a-6dbb-422a-a888-e70d969bc8f8
-    alterId: 55
+    uuid: 968bd71b-a01e-4dd6-be18-686bde7ec2de
+    alterId: 64
     cipher: auto
     network: tcp
  -  name: tw2twge.tkvmess
