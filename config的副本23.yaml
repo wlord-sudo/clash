@@ -211,11 +211,16 @@ proxies:
  -  name: mytrojan-grpc(gd)
     server: gddxc.fosi.hk
     port: 35566
-    type: vmess
-    uuid: 8b5ad5a8-a3f3-48a4-9a5d-ee0d3a8c2346
-    alterId: 50
-    cipher: auto
-    network: tcp
+    type: trojan
+    password: "NzBnIdU7ae"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
  -  name: khtrojan-grpc
     server: 220.158.233.71
     port: 21941
