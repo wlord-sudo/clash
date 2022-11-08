@@ -199,6 +199,14 @@ proxies:
     alterId: 52
     cipher: auto
     network: tcp
+ -  name: khmesss(gd)
+    server: azbj01.1aba.cn
+    port: 15971
+    type: vmess
+    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
+    alterId: 52
+    cipher: auto
+    network: tcp
  -  name: thmesss
     server: 43.229.149.235
     port: 9123
@@ -213,14 +221,6 @@ proxies:
     type: vmess
     uuid: d8b799c3-a896-48b6-85c6-2a03a722bdec
     alterId: 51
-    cipher: auto
-    network: tcp
- -  name: khmesss(gd)
-    server: azbj01.1aba.cn
-    port: 15971
-    type: vmess
-    uuid: c4206062-285d-4b3e-80d5-75b17b9ae481
-    alterId: 52
     cipher: auto
     network: tcp
  -  name: hpshowsocks
