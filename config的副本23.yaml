@@ -129,32 +129,30 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "ff7ad5ef"
- -  name: hkisptrojan-grpc
+ -  name: hkisptrojan-xtls
     server: 3.hkust.eu.org
-    port: 10234
+    port: 12341
     type: trojan
-    password: "HlGppG6muD"
-    network: grpc
+    password: "d2WBqyrwPc"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: hkisptrojan-grpc(gd)
+    udp: true
+ -  name: hkisptrojan-xtls(gd)
     server: gddxc.fosi.hk
     port: 50071
     type: trojan
-    password: "HlGppG6muD"
-    network: grpc
+    password: "d2WBqyrwPc"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
+    udp: true
  -  name: tw2twge.tkvmess
     type: ss
     server: tw1.fastyun.cc
@@ -169,132 +167,122 @@ proxies:
     cipher: aes-256-cfb
     password: "wangzhe123"
     udp: true
- -  name: tw1trojan-grpc
+ -  name: tw1trojan-xtls
     server: tw.airs.eu.org
     port: 10371
     type: trojan
-    password: "7u3DIYFsZl"
-    network: grpc
+    password: "fkQYLKSHJZ"
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: tw1trojan-grpc(gd)
+    udp: true
+ -  name: tw1trojan-xtls(gd)
     server: gddx.fosi.hk
     port: 25985
     type: trojan
-    password: "7u3DIYFsZl"
-    network: grpc
+    password: "fkQYLKSHJZ"
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: mytrojan-grpc
+    udp: true
+ -  name: mytrojan-xtls
     server: ml.hkust.eu.org
     port: 10132
     type: trojan
-    password: "NzBnIdU7ae"
-    network: grpc
+    password: "1bYQDUIDzY"
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: mytrojan-grpc(gd)
+    udp: true
+ -  name: mytrojan-xtls(gd)
     server: gddxc.fosi.hk
     port: 35566
     type: trojan
-    password: "NzBnIdU7ae"
-    network: grpc
+    password: "1bYQDUIDzY"
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: khtrojan-grpc
+    udp: true
+ -  name: khtrojan-xtls
     server: 220.158.233.71
-    port: 21941
+    port: 26007
     type: trojan
-    password: "KM14d9bIWT"
-    network: grpc
+    password: "l7XHlJ1guC"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: khtrojan-grpc(gd)
+    udp: true
+ -  name: khtrojan-xtls(gd)
     server: azbj01.1aba.cn
     port: 15971
     type: trojan
-    password: "KM14d9bIWT"
-    network: grpc
+    password: "l7XHlJ1guC"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: thtrojan-grpc
+    udp: true
+ -  name: thtrojan-xtls
     server: 43.229.149.235
-    port: 10290
+    port: 27331
     type: trojan
-    password: "FjZjUG4icl"
-    network: grpc
+    password: "wyO1RASZ0c"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: thtrojan-grpc(gd)
+    udp: true
+ -  name: thtrojan-xtls(gd)
     server: gddxd.fosi.hk
     port: 54957
     type: trojan
-    password: "FjZjUG4icl"
-    network: grpc
+    password: "wyO1RASZ0c"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: hptrojan
+    udp: true
+ -  name: hptrojan-xtls
     server: 180.232.110.221
     port: 46770
     type: trojan
     password: "hneGQbfT7u"
     network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
- -  name: hptrojan(gd)
+    udp: true
+ -  name: hptrojan-xtls(gd)
     server: azbj01.1aba.cn
     port: 38364
     type: trojan
     password: "hneGQbfT7u"
     network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
+    udp: true
  -  name: sgwads.gavmess-grpc
     server: 13.212.53.64
     port: 443
@@ -745,6 +733,34 @@ proxies:
     alterId: 51
     cipher: auto
     network: tcp
+ - 
+    name: us4median
+    server: 64.52.162.46
+    port: 21144
+    type: trojan
+    password: "IYzMqoixt7"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
+ - 
+    name: us4median(gd)
+    server: gyiepl.1aba.cn
+    port: 41934
+    type: trojan
+    password: "IYzMqoixt7"
+    network: grpc
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    #udp: true
+    grpc-opts:
+      grpc-service-name: "hello"
  - 
     name: audegx.gavmess-grpc
     server: 52.62.231.219
@@ -1617,20 +1633,20 @@ proxy-groups:
     - hk2degas.gavmess-grpc(hn)
     - hk2degas.gavmess-grpc(gd)
     - hk2degas.gavmess-grpc(hn)
-    - hkisptrojan-grpc
-    - hkisptrojan-grpc(gd)
+    - hkisptrojan-xtls
+    - hkisptrojan-xtls(gd)
     - tw2twge.tkvmess
     - tw2twge.tkvmess(gd)
-    - tw1trojan-grpc
-    - tw1trojan-grpc(gd)
-    - mytrojan-grpc
-    - mytrojan-grpc(gd)
-    - khtrojan-grpc
-    - khtrojan-grpc(gd)
-    - thtrojan-grpc
-    - thtrojan-grpc(gd)
-    - hptrojan
-    - hptrojan(gd)
+    - tw1trojan-xtls
+    - tw1trojan-xtls(gd)
+    - mytrojan-xtls
+    - mytrojan-xtls(gd)
+    - khtrojan-xtls
+    - khtrojan-xtls(gd)
+    - thtrojan-xtls
+    - thtrojan-xtls(gd)
+    - hptrojan-xtls
+    - hptrojan-xtls(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
@@ -1666,6 +1682,8 @@ proxy-groups:
     - us2usaz.cfvmess-grpc(aws)
     - us3median
     - us3median(sl)
+    - us4median
+    - us4median(gd)
     - audegx.gavmess-grpc
     - audegx.gavmess-grpc(gd)
     - audegx.gavmess-grpc(aws)
