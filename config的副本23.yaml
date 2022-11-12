@@ -8,7 +8,7 @@
 #---------------------------------------------------#
 
 # (HTTP and SOCKS5 in one port)x
-mixed-port: 7892
+mixed-port: 7890
 # RESTful API for clash
 external-controller: 127.0.0.1:9090
 allow-lan: true
@@ -335,19 +335,27 @@ proxies:
  -  name: sg2
     server: 18.143.164.33
     port: 59514
-    type: vmess
-    uuid: 88b9f5d3-2a4c-4c5b-f45e-1b27e2810959
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "U5zJdDz0zl"
     network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: sg2(gd)
     server: gyiepl.1aba.cn
     port: 10752
-    type: vmess
-    uuid: 88b9f5d3-2a4c-4c5b-f45e-1b27e2810959
-    alterId: 0
-    cipher: auto
+    type: trojan
+    password: "U5zJdDz0zl"
     network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: idindogo.gatrojan-grpc
     server: 108.137.73.86
     port: 31983
@@ -1625,7 +1633,7 @@ proxies:
     grpc-opts:
       grpc-service-name: "ff2c93fe"
 proxy-groups:
-- name: proxy
+- name: PROXY
   type: select
   proxies:
     - DIRECT
@@ -1755,8 +1763,25 @@ proxy-groups:
     - zlzlgp.gqvmess-grpc
     - zlzlgp.gqvmess-grpc(gy)
 rules:
- - GEOIP,CN,DIRECT
- - MATCH,proxy
+  # rule GEOSITE
+  - GEOSITE,category-ads-all,REJECT
+  - GEOSITE,icloud@cn,DIRECT
+  - GEOSITE,apple@cn,DIRECT
+  - GEOSITE,apple-cn,DIRECT
+  - GEOSITE,microsoft@cn,DIRECT
+  - GEOSITE,facebook,PROXY
+  - GEOSITE,youtube,PROXY
+  - GEOSITE,geolocation-cn,DIRECT
+  - GEOSITE,geolocation-!cn,PROXY
+    
+  # source IPCIDR condition for all rules in gateway proxy
+  #- GEOSITE,geolocation-!cn,REJECT,192.168.1.88/32,192.168.1.99/32
+
+  - GEOIP,telegram,PROXY,no-resolve
+  - GEOIP,private,DIRECT,no-resolve
+  - GEOIP,cn,DIRECT
+  
+  - MATCH,PROXY
 dns:
   enable: true # set true to enable dns (default is false)
   ipv6: true # default is false
@@ -1766,8 +1791,8 @@ dns:
   nameserver:
    - https://whax.eu.org/dns-query
   fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-   - tls://c.passcloud.xyz # dns over tls
-   - https://i.passcloud.xyz/dns-query
+   - https://1.0.0.1/dns-query
+   - tls://8.8.4.4:853
   fallback-filter:
     geoip: true # default
     ipcidr: # ips in these subnets will be considered polluted
