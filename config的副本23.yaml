@@ -293,6 +293,54 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: kz
+    server: 83.229.15.104
+    port: 53234
+    type: trojan
+    password: "40faFoagOm"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: kz(ah)
+    server: ahhf.fosi.hk
+    port: 39749
+    type: trojan
+    password: "40faFoagOm"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: lu
+    server: 193.57.88.83
+    port: 12783
+    type: trojan
+    password: "5ZYO8sjWvO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: lu(gd)
+    server: gyiepl.1aba.cn
+    port: 19748
+    type: trojan
+    password: "5ZYO8sjWvO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: sgwads.gavmess-grpc
     server: 13.212.53.64
     port: 443
@@ -1660,6 +1708,10 @@ proxy-groups:
     - thtrojan-xtls(gd)
     - hptrojan-xtls
     - hptrojan-xtls(gd)
+    - kz
+    - kz(ah)
+    - lu
+    - lu(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
