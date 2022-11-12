@@ -8,7 +8,7 @@
 #---------------------------------------------------#
 
 # (HTTP and SOCKS5 in one port)x
-mixed-port: 7890
+mixed-port: 7892
 # RESTful API for clash
 external-controller: 127.0.0.1:9090
 allow-lan: true
@@ -153,19 +153,29 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: tw2twge.tkvmess
-    type: ss
-    server: tw1.fastyun.cc
-    port: 20341
-    cipher: aes-256-cfb
-    password: "wangzhe123"
+ -  name: tw2grpc-xtls
+    server: hinet.miaoddns.top
+    port: 10924
+    type: trojan
+    password: "ZWDoB0hFYi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
     udp: true
- -  name: tw2twge.tkvmess(gd)
+ -  name: tw2grpc-xtls(gd)
     server: gddx.fosi.hk
     port: 62244
-    type: ss
-    cipher: aes-256-cfb
-    password: "wangzhe123"
+    type: trojan
+    password: "ZWDoB0hFYi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
     udp: true
  -  name: tw1trojan-xtls
     server: tw.airs.eu.org
@@ -468,45 +478,42 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "f97ecf74"
- -  name: jp3sgaz.gatorjan-grpc
+ -  name: jp3sgaz.gatorjan-xtls
     server: 54.248.154.33
     port: 46711
     type: trojan
     password: "aIpXTbEn3L"
-    network: grpc
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: jp3sgaz.gatorjan-grpc(sl)
+    udp: true
+ -  name: jp3sgaz.gatorjan-xtls(sl)
     server: shcu2.1aba.cn
     port: 23359
     type: trojan
     password: "aIpXTbEn3L"
-    network: grpc
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
- -  name: jp3sgaz.gatorjan-grpc(aws)
+    udp: true
+ -  name: jp3sgaz.gatorjan-xtls(aws)
     server: cn.hncu.1aba.cn
     port: 57894
     type: trojan
     password: "aIpXTbEn3L"
-    network: grpc
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
+    udp: true
  -  name: krmyda.cfvmess-grpc
     server: 20.196.198.12
     port: 443
@@ -738,29 +745,27 @@ proxies:
     server: 64.52.162.46
     port: 21144
     type: trojan
-    password: "IYzMqoixt7"
-    network: grpc
+    password: "m3rMxO8ZNP"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
+    udp: true
  - 
     name: us4median(gd)
     server: gyiepl.1aba.cn
     port: 41934
     type: trojan
-    password: "IYzMqoixt7"
-    network: grpc
+    password: "m3rMxO8ZNP"
+    network: tcp
+    flow: xtls-rprx-direct
     alpn:
       - h2
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
-    #udp: true
-    grpc-opts:
-      grpc-service-name: "hello"
+    udp: true
  - 
     name: audegx.gavmess-grpc
     server: 52.62.231.219
@@ -1635,8 +1640,8 @@ proxy-groups:
     - hk2degas.gavmess-grpc(hn)
     - hkisptrojan-xtls
     - hkisptrojan-xtls(gd)
-    - tw2twge.tkvmess
-    - tw2twge.tkvmess(gd)
+    - tw2grpc-xtls
+    - tw2grpc-xtls(gd)
     - tw1trojan-xtls
     - tw1trojan-xtls(gd)
     - mytrojan-xtls
@@ -1662,9 +1667,9 @@ proxy-groups:
     - jp2dwzz.gavmess-grpc
     - jp2dwzz.gavmess-grpc(aws)
     - jp2dwzz.gavmess-grpc(sl)
-    - jp3sgaz.gatorjan-grpc
-    - jp3sgaz.gatorjan-grpc(sl)
-    - jp3sgaz.gatorjan-grpc(aws)
+    - jp3sgaz.gatorjan-xtls
+    - jp3sgaz.gatorjan-xtls(sl)
+    - jp3sgaz.gatorjan-xtls(aws)
     - krmyda.cfvmess-grpc
     - krmyda.cfvmess-grpc(hn)
     - krmyda.cfvmess-grpc(gd)
@@ -1760,8 +1765,6 @@ dns:
   fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
   nameserver:
    - https://whax.eu.org/dns-query
-   - https://hk1.beta.xns.one/08a43a42-88b2-4d46-9251-7fb43f70a06e/dns-query
-   - https://[2606:4700:4700::1111]/dns-query
   fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
    - tls://c.passcloud.xyz # dns over tls
    - https://i.passcloud.xyz/dns-query
