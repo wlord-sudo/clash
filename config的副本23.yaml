@@ -199,6 +199,50 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: kz
+    server: 83.229.15.102
+    port: 16056
+    type: trojan
+    password: "WBJjZyH4WB"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: kz(gd)
+    server: gyiepl.1aba.cn
+    port: 19748
+    type: trojan
+    password: "WBJjZyH4WB"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: tk
+    server: 202.78.174.215
+    port: 40539
+    type: trojan
+    password: "CUOuq1o0Jm"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: tk(gd)
+    server: 202.78.174.215
+    port: 40539
+    type: trojan
+    password: "CUOuq1o0Jm"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: mytrojan-xtls
     server: ml.hkust.eu.org
     port: 10132
@@ -1645,6 +1689,10 @@ proxy-groups:
     - thtrojan-xtls(gd)
     - hptrojan-xtls
     - hptrojan-xtls(gd)
+    - kz
+    - kz(gd)
+    - tk
+    - tk(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
