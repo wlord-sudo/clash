@@ -233,8 +233,8 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: tk(gd)
-    server: 202.78.174.215
-    port: 40539
+    server: gyiepl.1aba.cn
+    port: 58210
     type: trojan
     password: "CUOuq1o0Jm"
     flow: xtls-rprx-direct
