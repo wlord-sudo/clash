@@ -210,6 +210,28 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: lu
+    server: 92.223.42.181
+    port: 25546
+    type: trojan
+    password: "bCdA1IjjYe"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: lu(gy)
+    server: ydgy.fosi.hk
+    port: 51771
+    type: trojan
+    password: "bCdA1IjjYe"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: kz(gd)
     server: gyiepl.1aba.cn
     port: 19748
@@ -1691,6 +1713,8 @@ proxy-groups:
     - hptrojan-xtls(gd)
     - kz
     - kz(gd)
+    - lu
+    - lu(gy)
     - tk
     - tk(gd)
     - sgwads.gavmess-grpc
