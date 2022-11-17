@@ -336,7 +336,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: hptrojan-xtls
-    server: 180.232.110.221
+    server: 180.232.110.62
     port: 46770
     type: trojan
     password: "hneGQbfT7u"
@@ -1192,10 +1192,10 @@ proxies:
     grpc-opts:
       grpc-service-name: "b2365380"
  -  name: popogp.gqtrojan-xtls
-    server: 94.156.45.87
-    port: 14401
+    server: 94.156.45.222
+    port: 27627
     type: trojan
-    password: "6vivz4soMR"
+    password: "FV4BrHumRX"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
@@ -1207,7 +1207,7 @@ proxies:
     server: gyiepl.1aba.cn
     port: 61252
     type: trojan
-    password: "6vivz4soMR"
+    password: "FV4BrHumRX"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
