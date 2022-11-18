@@ -265,6 +265,28 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: vn
+    server: 103.179.188.167
+    port: 34987
+    type: trojan
+    password: "n3XYjWnVXw"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: vn(gd)
+    server: ydgy.fosi.hk
+    port: 17503
+    type: trojan
+    password: "n3XYjWnVXw"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: mytrojan-xtls
     server: ml.hkust.eu.org
     port: 10132
@@ -1717,6 +1739,8 @@ proxy-groups:
     - lu(gy)
     - tk
     - tk(gd)
+    - vn
+    - vn(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
     - sgwads.gavmess-grpc(gd)
