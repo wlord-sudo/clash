@@ -277,6 +277,17 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: vn(gd)
+    server: azbj01.1aba.cn
+    port: 37072
+    type: trojan
+    password: "n3XYjWnVXw"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: vn(gy)
     server: ydgy.fosi.hk
     port: 17503
     type: trojan
@@ -1737,6 +1748,7 @@ proxy-groups:
     - tk
     - tk(gd)
     - vn
+    - vn(gy)
     - vn(gd)
     - sgwads.gavmess-grpc
     - sgwads.gavmess-grpc(hn)
