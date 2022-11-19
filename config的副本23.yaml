@@ -334,7 +334,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: thtrojan-xtls
-    server: 43.229.149.235
+    server: 45.144.167.3
     port: 27331
     type: trojan
     password: "wyO1RASZ0c"
@@ -536,44 +536,41 @@ proxies:
     grpc-opts:
       grpc-service-name: "b357b3f2"
  -  name: jp2dwzz.gavmess-grpc
-    server: dwzz.ga
-    port: 443
-    type: vmess
-    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f97ecf74"
+    server: 13.208.182.244
+    port: 13047
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: jp2dwzz.gavmess-grpc(aws)
     server: shcu.1aba.cn
     port: 23359
-    type: vmess
-    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f97ecf74"
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: jp2dwzz.gavmess-grpc(sl)
     server: shcu.1aba.cn
     port: 30089
-    type: vmess
-    uuid: 40401967-6c28-435c-a8b6-0736ba7156ad
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dwzz.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "f97ecf74"
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: jp3sgaz.gatorjan-xtls
     server: 54.248.154.33
     port: 46711
