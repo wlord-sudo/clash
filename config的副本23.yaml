@@ -289,7 +289,7 @@ proxies:
     udp: true
  -  name: vn(gy)
     server: ydgy.fosi.hk
-    port: 39415
+    port: 27593
     type: trojan
     password: "n3XYjWnVXw"
     flow: xtls-rprx-direct
