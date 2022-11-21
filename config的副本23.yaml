@@ -1221,7 +1221,7 @@ proxies:
     ## skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "b2365380"
- -  name: popogp.gqtrojan-xtls
+ -  name: po
     server: 94.156.45.222
     port: 27627
     type: trojan
@@ -1233,7 +1233,7 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: popogp.gqtrojan-xtls(gd)
+ -  name: po(gd)
     server: gyiepl.1aba.cn
     port: 61252
     type: trojan
@@ -1622,32 +1622,28 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "e1dff6f9"
- -  name: flflgcp.gqvmess-grpc
-    server: 34.88.120.227
-    port: 443
-    type: vmess
-    uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: flgcp.gq
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0851d4fb"
- -  name: flflgcp.gqvmess-grpc(hy)
-    server: fsyy.fosi.hk
-    port: 10151
-    type: vmess
-    uuid: 3bffa331-8c17-408d-b7f0-fbe47189468f
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: flgcp.gq
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0851d4fb"
+ -  name: fl
+    server: 45.136.71.113
+    port: 33951
+    type: trojan
+    password: "2OfqQ6ho9L"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: fl(gy)
+    server: ydgy.fosi.hk
+    port: 16809
+    type: trojan
+    password: "2OfqQ6ho9L"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: blzlgcp.mlvmess-grpc
     server: 15.185.117.51
     port: 443
@@ -1813,8 +1809,8 @@ proxy-groups:
     - spspgp.tkvmess-grpc
     - spspgp.tkvmess-grpc(gy)
     - spspgp.tkvmess-grpc（中转）*
-    - popogp.gqtrojan-xtls
-    - popogp.gqtrojan-xtls(gd)
+    - po
+    - po(gd)
     - dbdbbd.gavmess-grpc
     - dbdbbd.gavmess-grpc(aws)
     - dbdbbd.gavmess-grpc（hn)
@@ -1844,8 +1840,8 @@ proxy-groups:
     - rdrdaws.gavmess-grpc
     - rdrdaws.gavmess-grpc(aws)
     - rdrdaws.gavmess-grpc(hn)
-    - flflgcp.gqvmess-grpc
-    - flflgcp.gqvmess-grpc(hy)
+    - fl
+    - fl(gy)
     - blzlgcp.mlvmess-grpc
     - blzlgcp.mlvmess-grpc(aws)
     - blzlgcp.mlvmess-grpc(hn)
