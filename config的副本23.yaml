@@ -18,49 +18,46 @@ udp-rely: true
 
 proxies:
  - 
-    name: hk1dawz.cfvmess-grpc
-    server: 20.205.43.0
-    port: 443
-    type: vmess
-    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dawz.cf
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0d0e68b1"
+    name: hk1
+    server: 20.187.79.216
+    port: 29464
+    type: trojan
+    password: "GxzOpNzfAO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
-    name: hk1dawz.cfvmess-grpc(azsh)
+    name: hk1(azsh)
     server: azbj01.1aba.cn
     port: 51913
-    type: vmess
-    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dawz.cf
-    # s# skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0d0e68b1"
+    type: trojan
+    password: "GxzOpNzfAO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
-    name: hk1dawz.cfvmess-grpc(hn)
+    name: hk1(hn)
     server: gddxc.fosi.hk
     port: 42802
-    type: vmess
-    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dawz.cf
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "0d0e68b1"
+    type: trojan
+    password: "GxzOpNzfAO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
-    name: hk1dawz.cfvmess-grpc(gd)
+    name: hk1(gd)
     server: gddx.fosi.hk
     port: 42802
     type: vmess
@@ -595,8 +592,8 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: jp3sgaz.gatorjan-xtls(sl)
-    server: shcu2.1aba.cn
-    port: 23359
+    server: shcu.1aba.cn
+    port: 57894
     type: trojan
     password: "aIpXTbEn3L"
     network: tcp
@@ -1715,10 +1712,10 @@ proxy-groups:
   proxies:
     - DIRECT
     - REJECT
-    - hk1dawz.cfvmess-grpc
-    - hk1dawz.cfvmess-grpc(azsh)
-    - hk1dawz.cfvmess-grpc(hn)
-    - hk1dawz.cfvmess-grpc(gd)
+    - hk1
+    - hk1(azsh)
+    - hk1(hn)
+    - hk1(gd)
     - hk2degas.gavmess-grpc
     - hk2degas.gavmess-grpc(hn)
     - hk2degas.gavmess-grpc(gd)
