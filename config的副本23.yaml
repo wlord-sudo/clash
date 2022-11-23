@@ -60,16 +60,15 @@ proxies:
     name: hk1(gd)
     server: gddx.fosi.hk
     port: 42802
-    type: vmess
-    uuid: decc8af4-16f7-4fc6-ac79-f83d6dd5d8a6
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: dawz.cf
-    # s# skip-cert-verify: trueg
-    grpc-opts:
-      grpc-service-name: "0d0e68b1"
+    type: trojan
+    password: "GxzOpNzfAO"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
     name: hk2degas.gavmess-grpc
     server: 104.208.103.14
