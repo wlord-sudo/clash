@@ -404,7 +404,7 @@ proxies:
     server: gddxc.fosi.hk
     port: 31512
     type: trojan
-    password: "hneGQbfT7u"
+    password: "uh8t0zweUw"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
@@ -416,7 +416,7 @@ proxies:
     server: gddx.fosi.hk
     port: 31512
     type: trojan
-    password: "hneGQbfT7u"
+    password: "uh8t0zweUw"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
