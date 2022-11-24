@@ -388,45 +388,42 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: sgwads.gavmess-grpc
-    server: 13.212.53.64
-    port: 443
-    type: vmess
-    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wads.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "cbed1f26"
- -  name: sgwads.gavmess-grpc(hn)
+ -  name: sg
+    server: 54.255.188.9
+    port: 46952
+    type: trojan
+    password: "uh8t0zweUw"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: sg(hn)
     server: gddxc.fosi.hk
     port: 31512
-    type: vmess
-    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wads.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "cbed1f26"
- -  name: sgwads.gavmess-grpc(gd)
+    type: trojan
+    password: "hneGQbfT7u"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: sg(gd)
     server: gddx.fosi.hk
     port: 31512
-    type: vmess
-    uuid: 32439b3c-04cf-4b50-8865-1be2313aa8b3
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wads.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "cbed1f26"
+    type: trojan
+    password: "hneGQbfT7u"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: sg2
     server: 18.143.164.33
     port: 59514
@@ -1742,9 +1739,9 @@ proxy-groups:
     - vn
     - vn(gy)
     - vn(gd)
-    - sgwads.gavmess-grpc
-    - sgwads.gavmess-grpc(hn)
-    - sgwads.gavmess-grpc(gd)
+    - sg
+    - sg(hn)
+    - sg(gd)
     - sg2
     - sg2(gd)
     - idindogo.gatrojan-grpc
