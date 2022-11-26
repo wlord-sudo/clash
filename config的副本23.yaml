@@ -437,7 +437,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: sg
-    server: 54.255.188.9
+    server: 18.138.51.109
     port: 46952
     type: trojan
     password: "uh8t0zweUw"
@@ -624,7 +624,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: jp3sgaz.gatorjan-xtls
-    server: 54.248.154.33
+    server: 35.78.99.243
     port: 46711
     type: trojan
     password: "aIpXTbEn3L"
