@@ -149,6 +149,54 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: hu
+    server: 87.229.6.91
+    port: 10393
+    type: trojan
+    password: "9T5LRn0VwE"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: hu(gd)
+    server: gddxd.fosi.hk
+    port: 36837
+    type: trojan
+    password: "9T5LRn0VwE"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: by
+    server: 81.91.190.76
+    port: 39943
+    type: trojan
+    password: "E31t9pfVBI"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: by(gd)
+    server: gddxd.fosi.hk
+    port: 52022
+    type: trojan
+    password: "E31t9pfVBI"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: tw2grpc-xtls
     server: hinet.miaoddns.top
     port: 10924
@@ -206,6 +254,17 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
+ -  name: kz(gd)
+    server: gyiepl.1aba.cn
+    port: 19748
+    type: trojan
+    password: "WBJjZyH4WB"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: lu
     server: 92.223.42.181
     port: 25546
@@ -222,17 +281,6 @@ proxies:
     port: 51771
     type: trojan
     password: "bCdA1IjjYe"
-    flow: xtls-rprx-direct
-    alpn:
-      - h2
-    sni: 54-178-65-159.nhost.00cdn.com
-    skip-cert-verify: false
-    udp: true
- -  name: kz(gd)
-    server: gyiepl.1aba.cn
-    port: 19748
-    type: trojan
-    password: "WBJjZyH4WB"
     flow: xtls-rprx-direct
     alpn:
       - h2
@@ -1730,8 +1778,12 @@ proxy-groups:
     - thtrojan-xtls(gd)
     - hptrojan-xtls
     - hptrojan-xtls(gd)
+    - by
+    - by(gd)
     - kz
     - kz(gd)
+    - hu
+    - hu(gd)
     - lu
     - lu(gy)
     - tk
