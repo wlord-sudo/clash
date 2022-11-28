@@ -1223,45 +1223,28 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "c642113d"
- -  name: spspgp.tkvmess-grpc
-    server: 34.175.21.67
-    port: 443
-    type: vmess
-    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d35
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: spgp.tk
-    ## skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b2365380"
- -  name: spspgp.tkvmess-grpc(gy)
-    server: fsyy.fosi.hk
-    port: 35316
-    type: vmess
-    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d35
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: spgp.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b2365380"
- -  name: spspgp.tkvmess-grpc（中转）*
-    server: fkiclqudpp.eastasia.cloudapp.azure.com
-    port: 36929
-    type: vmess
-    uuid: b51a8d31-a13a-4755-8b8b-92457ddd6d35
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: spgp.tk
-    ## skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b2365380"
+ -  name: sp
+    server: 18.100.115.56
+    port: 27468
+    type: trojan
+    password: "QqYWqhyrgK"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: sp(gd)
+    server: gddxd.fosi.hk
+    port: 35145
+    type: trojan
+    password: "QqYWqhyrgK"
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: po
     server: 94.156.45.222
     port: 27627
@@ -1851,9 +1834,8 @@ proxy-groups:
     - dedeaz.gavmess-grpc
     - dedeaz.gavmess-grpc（aws）
     - dedeaz.gavmess-grpc（hn）
-    - spspgp.tkvmess-grpc
-    - spspgp.tkvmess-grpc(gy)
-    - spspgp.tkvmess-grpc（中转）*
+    - sp
+    - sp(gd)
     - po
     - po(gd)
     - dbdbbd.gavmess-grpc
