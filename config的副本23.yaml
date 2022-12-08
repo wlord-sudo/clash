@@ -276,9 +276,9 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: lu(gy)
-    server: ydgy.fosi.hk
-    port: 51771
+ -  name: lu(gd)
+    server: gddxd.fosi.hk
+    port: 38531
     type: trojan
     password: "bCdA1IjjYe"
     flow: xtls-rprx-direct
@@ -413,7 +413,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: hptrojan-xtls
-    server: 180.232.110.62
+    server: 180.232.110.130
     port: 46770
     type: trojan
     password: "hneGQbfT7u"
@@ -437,10 +437,10 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: sg
-    server: 18.138.51.109
-    port: 46952
+    server: 20.212.167.160
+    port: 58649
     type: trojan
-    password: "uh8t0zweUw"
+    password: "sXjhjhxWKK"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
@@ -452,7 +452,7 @@ proxies:
     server: gddxc.fosi.hk
     port: 31512
     type: trojan
-    password: "uh8t0zweUw"
+    password: "sXjhjhxWKK"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
@@ -464,7 +464,7 @@ proxies:
     server: gddx.fosi.hk
     port: 31512
     type: trojan
-    password: "uh8t0zweUw"
+    password: "sXjhjhxWKK"
     network: tcp
     flow: xtls-rprx-direct
     alpn:
@@ -912,35 +912,33 @@ proxies:
     skip-cert-verify: false
     udp: true
  - 
-    name: audegx.gavmess-grpc
-    server: 52.62.231.219
-    port: 443
-    type: vmess
-    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: degx.ga
-    ## skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "c7a2b06f"
+    name: au
+    server: 20.36.33.15
+    port: 22687
+    type: trojan
+    password: "BZl2gwDHL9"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
-    name: audegx.gavmess-grpc(gd)
+    name: au(gd)
     server: gyiepl.1aba.cn
     port: 28203
-    type: vmess
-    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: degx.ga
-    ## skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "c7a2b06f"
+    type: trojan
+    password: "BZl2gwDHL9"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
-    name: audegx.gavmess-grpc(aws)
+    name: au(aws)
     server: awsbj01.1aba.cn
     port: 26380
     type: vmess
@@ -954,19 +952,18 @@ proxies:
     grpc-opts:
       grpc-service-name: "c7a2b06f"
  - 
-    name: audegx.gavmess-grpc(gy)
+    name: au(gy)
     server: ydgy.fosi.hk
     port: 53779
-    type: vmess
-    uuid: b89f4d04-c768-43d6-bf85-6d24fdf38458
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: degx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "c7a2b06f"
+    type: trojan
+    password: "BZl2gwDHL9"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  - 
     name: nfnfzz.gcf.cfvmess-grpc
     server: 20.87.42.254
@@ -1768,7 +1765,7 @@ proxy-groups:
     - hu
     - hu(gd)
     - lu
-    - lu(gy)
+    - lu(gd)
     - tk
     - tk(gd)
     - vn
@@ -1811,10 +1808,10 @@ proxy-groups:
     - us3median(sl)
     - us4median
     - us4median(gd)
-    - audegx.gavmess-grpc
-    - audegx.gavmess-grpc(gd)
-    - audegx.gavmess-grpc(aws)
-    - audegx.gavmess-grpc(gy)
+    - au
+    - au(gd)
+    - au(aws)
+    - au(gy)
     - nfnfzz.gcf.cfvmess-grpc
     - nfnfzz.gcf.cfvmess-grpc(gd)
     - nfnfzz.gcf.cfvmess-grpc(aws)
@@ -1901,11 +1898,4 @@ dns:
   enhanced-mode: fake-ip # or redir-host
   fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
   nameserver:
-   - https://whax.eu.org/dns-query
-  fallback: # concurrent request with nameserver, fallback used when GEOIP country isn't CN
-   - https://1.0.0.1/dns-query
-   - tls://8.8.4.4:853
-  fallback-filter:
-    geoip: true # default
-    ipcidr: # ips in these subnets will be considered polluted
-     - 240.0.0.0/4
+   - https://doh.apad.pro/cdn-query
