@@ -149,9 +149,9 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: hu
-    server: 87.229.6.91
-    port: 10393
+ -  name: ro
+    server: 92.84.204.2
+    port: 5002
     type: trojan
     password: "9T5LRn0VwE"
     network: tcp
@@ -161,7 +161,7 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: hu(gd)
+ -  name: ro(gd)
     server: gddxd.fosi.hk
     port: 36837
     type: trojan
@@ -174,7 +174,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: by
-    server: 81.91.190.76
+    server: 81.91.190.77
     port: 39943
     type: trojan
     password: "E31t9pfVBI"
@@ -413,7 +413,7 @@ proxies:
     skip-cert-verify: false
     udp: true
  -  name: hptrojan-xtls
-    server: 180.232.110.130
+    server: 180.232.110.96
     port: 46770
     type: trojan
     password: "hneGQbfT7u"
@@ -535,60 +535,56 @@ proxies:
     #udp: true
     grpc-opts:
       grpc-service-name: "hello"
- -  name: jp1wxpx.gavmess-grpc
-    server: 13.230.188.211
-    port: 443
-    type: vmess
-    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wxpx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b357b3f2"
- -  name: jp1wxpx.gavmess-grpc(hn)
+ -  name: jpdb
+    server: 13.208.187.114
+    port: 43749
+    type: trojan
+    password: "6SZxBn0EJi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: jpdb(hn)
     server: gddxc.fosi.hk
     port: 56532
-    type: vmess
-    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wxpx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b357b3f2"
- -  name: jp1wxpx.gavmess-grpc(gd)
+    type: trojan
+    password: "6SZxBn0EJi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: jpdb(gd)
     server: gddx.fosi.hk
     port: 56532
-    type: vmess
-    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wxpx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b357b3f2"
- -  name: jp1wxpx.gavmess-grpc(sl)
+    type: trojan
+    password: "6SZxBn0EJi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: jpdb(sl)
     server: shcu.1aba.cn
     port: 14353
-    type: vmess
-    uuid: c85b08cb-e81a-4d8b-997f-e43870dc52dc
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: wxpx.ga
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "b357b3f2"
- -  name: jp2dwzz.gavmess-grpc
-    server: 13.208.182.244
+    type: trojan
+    password: "6SZxBn0EJi"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: jp1**
+    server: 20.49.181.97
     port: 13047
     type: trojan
     password: "1NNqWfkzAG"
@@ -599,7 +595,7 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: jp2dwzz.gavmess-grpc(aws)
+ -  name: jp1*(sl)*
     server: shcu.1aba.cn
     port: 23359
     type: trojan
@@ -611,7 +607,7 @@ proxies:
     sni: 54-178-65-159.nhost.00cdn.com
     skip-cert-verify: false
     udp: true
- -  name: jp2dwzz.gavmess-grpc(sl)
+ -  name: jp1*(sl2)*
     server: shcu.1aba.cn
     port: 30089
     type: trojan
@@ -1370,45 +1366,42 @@ proxies:
     # skip-cert-verify: true
     grpc-opts:
       grpc-service-name: "c7a2b06f"
- -  name: ukukaz.tkvmess-grpc
-    server: 13.40.177.127
-    port: 443
-    type: vmess
-    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: ukaz.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "4017e048"
- -  name: ukukaz.tkvmess-grpc(aws)
-    server: awsbj01.1aba.cn
+ -  name: uk
+    server: 20.49.181.97
+    port: 13047
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: uk(aws)
+    server: cn.awsbi.donghui.tech
     port: 57910
-    type: vmess
-    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: ukaz.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "4017e048"
- -  name: ukukaz.tkvmess-grpc(hn)
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
+ -  name: uk(hn)
     server: azsh01.1aba.cn
     port: 56385
-    type: vmess
-    uuid: 5c9994b3-f67e-4b10-aabc-0b448c6080af
-    alterId: 0
-    cipher: auto
-    network: grpc
-    tls: true
-    servername: ukaz.tk
-    # skip-cert-verify: true
-    grpc-opts:
-      grpc-service-name: "4017e048"
+    type: trojan
+    password: "1NNqWfkzAG"
+    network: tcp
+    flow: xtls-rprx-direct
+    alpn:
+      - h2
+    sni: 54-178-65-159.nhost.00cdn.com
+    skip-cert-verify: false
+    udp: true
  -  name: ititaws.mlvmess-grpc
     server: 15.160.161.180
     port: 443
@@ -1762,8 +1755,8 @@ proxy-groups:
     - by(gd)
     - kz
     - kz(gd)
-    - hu
-    - hu(gd)
+    - ro
+    - ro(gd)
     - lu
     - lu(gd)
     - tk
@@ -1779,13 +1772,13 @@ proxy-groups:
     - idindogo.gatrojan-grpc
     - idindogo.gatrojan-grpc(hn)
     - idindogo.gatrojan-grpc(gd)
-    - jp1wxpx.gavmess-grpc
-    - jp1wxpx.gavmess-grpc(hn)
-    - jp1wxpx.gavmess-grpc(gd)
-    - jp1wxpx.gavmess-grpc(sl)
-    - jp2dwzz.gavmess-grpc
-    - jp2dwzz.gavmess-grpc(aws)
-    - jp2dwzz.gavmess-grpc(sl)
+    - jpdb
+    - jpdb(hn)
+    - jpdb(gd)
+    - jpdb(sl)
+    - jp1**
+    - jp1*(sl)*
+    - jp1*(sl2)*
     - jp3sgaz.gatorjan-xtls
     - jp3sgaz.gatorjan-xtls(sl)
     - jp3sgaz.gatorjan-xtls(aws)
@@ -1843,9 +1836,9 @@ proxy-groups:
     - nyaz.mlvmess-grpc
     - nynyaz.mlvmess-grpc(aws)
     - nynyaz.mlvmess-grpc（hn）
-    - ukukaz.tkvmess-grpc
-    - ukukaz.tkvmess-grpc(aws)
-    - ukukaz.tkvmess-grpc(hn)
+    - uk
+    - uk(aws)
+    - uk(hn)
     - ititaws.mlvmess-grpc
     - ititaws.mlvmess-grpc(aws)
     - ititaws.mlvmess-grpc(hn)
@@ -1899,3 +1892,4 @@ dns:
   fake-ip-range: 198.18.0.1/16 # if you don't know what it is, don't change it
   nameserver:
    - https://doh.apad.pro/cdn-query
+   - https://1.1.1.1/dns-query
